@@ -1,0 +1,6 @@
+*{margin: 0px;padding: 0px;list-style: none;font-family: "Microsoft YaHei";text-decoration: none;}
+body{width: 100%;margin: 0px;padding: 0px;background: #ffffff;font: 12px/1.5 "Microsoft YaHei";}
+
+.link1{display: block;margin: 10px auto 0;font-size: 20px;color: red;text-align: center;}
+.btn1{background: red;color: #fff;font-size: 12px;line-height: 20px;padding: 20px;border: 1px solid blue;cursor: pointer;display: block;margin: 10px auto 0px;}
+.img{width: 500px;border: 1px solid red;margin: 20px auto;display: none;}
