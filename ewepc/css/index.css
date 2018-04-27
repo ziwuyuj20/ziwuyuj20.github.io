@@ -1,0 +1,51 @@
+.box1{width: 100%;margin: 0 auto;}
+.CouponBox{width: 100%;height: 250px;background: #e0e0e0;margin: 0 auto;}
+.CouponHead{width: 1100px;height: 52px;margin: 0 auto 32px;overflow: hidden;font-size: 24px;}
+.LineLeft{width: 437px;height: 1px;float: left;background: #d3aa68;margin-top: 26px;}
+.LineRight{width: 437px;height: 1px;float: right;background: #d3aa68;margin-top: 26px;}
+.CouponCenter{width: 186px;height: 48px;line-height: 48px;background: #ffffff;text-align: center;color: #666666;float: left;margin: 0 18px;border: 2px solid #d3aa68;}
+.CouponCenetrOutBox{width: 1200px;margin: 0 auto;position: relative;}
+.CouponCenetrBox{width: 1198px;height: 338px;border: 1px solid #d3aa68;position: absolute;left: 0px;top: 0px;background: #ffffff;font-size: 12px;}
+.CouponCenetrBox li{width: 176px;border: 2px solid #d3aa68;float: left;margin: 36px 0 36px 127px;}
+.CouponCenetrHead{width: 100%;text-align: center;margin: 42px auto 10px;}
+.CouponLink{width: 95px;height: 3px;margin: 0 auto;display: block;}
+.sum{font-size: 60px;color: #1a1a1a;padding-left: 53px;line-height: 151px;}
+.Company{font-size: 12px;color: #d3aa68;}
+.moneyBox{width: 100%;}
+.CouponBtnBox{width: 100%;height: 43px;text-align: center;font-size: 12px;margin: 0 auto;background: #d3aa68;overflow: hidden;}
+.ReceiveBtn{width: 144px;height: 28px;border: 1px solid #fffff8;margin: 8px auto;color: #fffff8;display: block;line-height: 30px;}
+.centerOuTBox{width: 100%;margin: 0 auto;background: url(../img/bgc.png) repeat;overflow: hidden;}
+.productOutBox{width: 1200px;margin: 90px auto 0;}
+.titleBox{width: 1120px;margin: 0 auto;font-size: 26px;overflow: hidden;}
+.LINK{width: 447px;height: 1px;background: #ff3356;float: left;margin-top: 26px;}
+.titleLinkLeft{float: left;}
+.titleLinkRight{float: right;}
+.title{width: 190px;height: 48px;float: left;margin: 0 16px;border: 2px solid #ff3356;background: #ff3356;}
+.title p{width: 190px;height: 48px;line-height: 48px;float: left;text-align: center;}
+.linkCn{color: #ffffff;}
+.productUl{width: 1160px;margin: 10px 0 10px 40px;overflow: hidden;display: none;}
+.productIco{width: 250px;margin: 30px 40px 0 0;float: left;}
+.productIco img{width: 100%;}
+.dataBox{width: 100%;background: #1a1a1a;text-align: center;color: #ffffff;overflow: hidden;margin-top: -4px;}
+.dataBox p{width: 100%;margin-top: 15px;}
+.seeBtn{width: 87px;height: 18px;border: 1px solid #ffffff;border-radius: 9px;line-height: 18px;text-align: center;font-size: 13px;margin: 10px auto 15px;display: block;color: #ffffff;}
+.productUlBox{width: 1200px;margin: 0 auto;}
+.newProductTxt{width: 100%;overflow: hidden;}
+.newProductTxtLeft{float: left;}
+.newProductTxtright{float: right;font-size: 13px;color: #1a1a1a;margin-top: 5px;}
+.newProductIco{width: 340px;margin: 30px 50px 0 0;float: left;}
+.newProductIco a{display: block;width: 100%;}
+.newProductIco img{width: 100%;}
+.newProductIco a{display: block;width: 100%;}
+.newProductIco .buy{width: 88px;height: 26px;display: block;background: #ff3356;color: #fefefe;line-height: 26px;text-align: center;float: right;border-radius: 3px;font-size: 15px;margin-top: 5px;}
+.leftLine{border-left: 4px solid #ff3356;margin-top: 5px;}
+.classBox{width: 380px;height: 22px;margin: 26px auto 0;}
+.Arrow{width: 12px;height: 20px;cursor: pointer;margin-top: 2px;}
+.ArrowLeft{float: left;background: url(../img/left.png);}
+.ArrowRight{float: right;background: url(../img/right.png);}
+.ArrowOut{width: 302px;height: 22px;position: relative;overflow: hidden;margin: 0 27px;float: left;font-size: 20px;line-height: 22px;}
+.ArrowOut a{color: #312d2e;display: block;width: 100%;height: 100%;font-weight: bold;}
+.ArrowUl{position: absolute;left: 0px;top: 0px;height: 22px;}
+.ArrowIco{float: left;padding: 0 9px;}
+.ArrowOut .ArrowIcoClick{color: #ff3356;}
+.FillBox{width: 100%;height: 40px;}

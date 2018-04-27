@@ -1,0 +1,296 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	text-decoration: none;
+	font-family: Microsoft YaHei,Hiragino Sans GB;
+}
+img{
+	border: none;
+}
+.navigationBox{
+	width: 100%;
+	height: 30px;
+	background: #f1f1f1;
+}
+.navigationUl{
+	width: 1198px;
+	margin: 0 auto;
+	font-size: 12px;
+}
+.navigationUl li{
+	height: 30px;
+	float: left;
+	line-height: 30px;
+}
+.navigationUl li a{
+	width: 100%;
+	height: 100%;
+	display: block;
+	color: #333333;
+}
+.navigationHead{
+	width: 1198px;
+	margin: 0 auto; 
+}
+.shopCartTxt{
+	height: 100%;
+	display: inline-block;
+	line-height: 112px;
+	float: left;
+	margin-left: 10px;
+	font-weight: bold;
+}
+.shopImg{
+	display: block;
+	margin: 25px 0;
+	float: left;
+}
+.shopCartIptBox{
+	margin-top: 35px;
+	width: 325px;
+	height: 28px;
+	float: right;
+	font-size: 12px;
+	overflow: hidden;
+}
+.shopCartIpt1{
+	float: left;
+	display: block;
+	width: 270px;
+	height: 24px;
+	border: 2px solid #c91623;
+}
+.searchBtn{
+	float: left;
+	display: inline-block;
+	width: 51px;
+	height: 28px;
+	background: #c91623;
+	text-align: center;
+	line-height: 28px;
+	color: #fff;
+}
+.deliveryPlace{
+	width: 1198px;
+	margin: 0 auto;
+}
+.allGoods{
+	float: left;
+	font-size: 20px;
+	color: #e4393c;
+	font-weight: bold;
+}
+.deliveryPlaceBox{
+	width: 182px;
+	height: 25px;
+	float: right;
+	font-size: 12px;
+}
+.deliveryPlaceBox p{
+	float: left;
+	line-height: 25px;
+}
+.popupBox{
+	width: 132px;
+	height: 23px;
+	border: 1px solid #e4e4e4;
+	float: left;
+}
+.popupTxt{
+	float: left;
+}
+.popupBgc{
+	margin: 10px 0 0 9px;
+	float: left;
+	width: 9px;
+	height: 6px;
+	background: url(../images/area_arrow.png) -4px -9px no-repeat;
+}
+.selectNgtBox{
+	width: 1198px;
+	height: 42px;
+	border: 1px solid #e9e9e9;
+	margin: 10px auto;
+	line-height: 42px;
+	font-size: 12px;
+	color: #666666;
+	background: #f3f3f3;
+}
+.seleIpt{
+	margin-left: 11px;
+	margin-top: -2px;
+	vertical-align: middle;
+}
+.tableHead{
+	width: 100%;
+	height: 30px;
+	font-size: 12px;
+	color: #666666;
+	line-height: 30px;
+	border-bottom: 2px solid #aaaaaa;
+	margin-top: 20px;
+}
+.selectIco1{
+	display: block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 12px;
+}
+.tableBox{
+	width: 1198px;
+	margin: 0 auto;
+}
+.allShopTxt{
+	margin-left: 10px;
+	float: left;
+	color: #666666;
+}
+.allShopBgc{
+	width: 16px;
+	height: 16px;
+	background: url(../images/cart-icons-new.png) -84px -49px no-repeat;
+	float: left;
+	margin: 8px 0 0 10px;
+}
+.dcp{
+	width: 80px;
+	height: 24px;
+	float: left;
+	background: url(../images/cart-coupon-icons02.png) 0px 0px no-repeat;
+	margin-left: 448px;
+}
+.freight{
+	float: right;
+}
+.table1{
+	margin: 0 auto;
+	border: 1px solid #f1f1f1;
+	border-top: none;
+	font-size: 12px;
+	position: relative;
+	padding:5px 3px 5px 10px;
+}
+.tableTd1{
+	width: 122px;
+}
+.tableImg{
+	margin-top: 5px;
+	margin-left: 11px;
+	float: left;
+}
+.storeIpt{
+	margin-top: 5px;
+	float: left;
+}
+.tableTd2{
+	width: 300px;
+}
+.tableTd3{
+	width: 170px;
+}
+.tableTd4{
+	text-align: center;
+	width: 277px;
+}
+.tableTd5{
+	width: 203px;
+}
+.alterBox{
+	width: 78px;
+	height: 20px;
+	border: 1px solid #cacbcb;
+	background: #fff;
+}
+.minishBtn{
+	width: 16px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	float: left;
+	border-right: 1px solid #cacbcb;
+	cursor: pointer;
+}
+.alterNum{
+	width: 44px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	float: left;
+	border: none;
+	border-right: 1px solid #cacbcb;
+}
+.addBtn{
+	width: 16px;
+	height: 20px;
+	line-height: 20px;
+	text-align: center;
+	float: left;
+	cursor: pointer;
+}
+.tableTd5 p{
+	margin: 5px 0 0 28px;
+}
+.tableTd6{
+	width: 130px;
+}
+.tableTd7{
+	width: 146px;
+	text-align: center;
+	cursor: pointer;
+}
+.handleBox{
+	margin: 20px auto;
+	width: 1198px;
+	height: 50px;
+	border: 1px solid #f0f0f0;
+	line-height: 50px;
+	font-size: 12px;
+	color: #666666;
+}
+.handleIpt{
+	margin: 19px 0 0 10px;
+	float: left;
+}
+.handleBox p{
+	float: left;
+}
+.delectGoods{
+	margin-left:10px;
+}
+.caaBtn{
+	display: block;
+	float: right;
+	width: 96px;
+	height: 50px;
+	background: #e64346;
+	color: #fff;
+	text-align: center;
+	line-height: 50px;
+	font-size: 15px;
+}
+.footerBox{
+	width: 100%;
+	height: 134px;
+	background: #fff;
+}
+.footerNgtUl{
+	margin-top: 30px;
+    border-top: 1px #f3f3f3 solid;
+    line-height: 60px;
+    width: 960px;
+    margin: auto;
+    color: #767677;
+    font-size: 12px;
+    text-align: center;
+}
+.footerNgtUl a{
+	color: #333;
+}
+.footerTxt{
+	width: 100%;
+	line-height: 30px;
+	font-size: 12px;
+	text-align: center;
+}
+.good_link{color: #000000;}

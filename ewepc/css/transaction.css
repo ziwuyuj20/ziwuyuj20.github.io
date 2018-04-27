@@ -1,0 +1,37 @@
+*{margin: 0px;padding: 0px;list-style: none;text-decoration: none;font-family: Microsoft YaHei,Hiragino Sans GB;outline: none;}
+.outBox{width: 100%;background: #f5f5f5;}
+.nbkBox{width: 100%;height: 106px;background: #e45050;}
+.nbkCenterBox{margin: 0 auto;width: 1187px;height: 106px;
+    font-size: 16px;}
+.nbkCenterBox img{display: block;float: left;margin-top:22px;}
+.nbkHpage{width: 100px;margin-left: 70px;}
+.as{width: 100px;}
+.news{width: 100px;float: left;}
+.nbkIpt{width: 360px;height: 32px;background: #fff;font-size: 12px;line-height: 32px;border: none;display: block;float: right;margin: 33px 0 0 0;padding-left: 3px;}
+.nbkBtn{width: 80px;height: 32px;background: #7dd589;text-align: center;line-height: 32px;color: #232323;font-size: 16px;float: right;display: block;border: none;margin-top: 33px;cursor: pointer;color: #fff;margin-right: 5px;}
+.centerBox{width: 1180px;margin: 35px auto 0;}
+.helpTxt{float: left;font-size: 25px;color: #fff;line-height: 106px;font-weight: bold;margin-left: 10px;}
+.leftBox{width: 210px;float: left;margin-bottom: 400px;}
+.leftHead{width: 210px;line-height: 40px;color: #fff;text-align: center;background: #7dd589;font-size: 18px;}
+.problemHead{width: 210px;text-align: center;line-height: 40px;font-size: 14px;background: #eaeaea;color: #666666;border-bottom: 1px solid #fff;cursor: pointer;}
+.probleUl{width: 210px;font-size: 14px;background: #ffffff;line-height: 31px;text-align: center;display: none;}
+.probleUl li{border-bottom: 1px solid #f5f5f5;}
+.probleUl a{color: #333333;}
+.problemCenter{width: 210px;}
+.probleUl .current{color: #7dd589;}
+.rightBox{width: 870px;float: right;margin-left: 70px;}
+.position{width: 870px;line-height: 39px;font-size: 14px;background: #eaeaea;}
+.position a{color: #666666;}
+.rightCenter{width: 870px;background: #ffffff;overflow: hidden;margin-bottom: 100px;}
+.open{display: block;}
+/*新加内容样式*/
+.problemOutBox{width: 870px;background: #ffffff;overflow: hidden;margin-bottom: 94px;}
+.problemBox{width: 800px;margin: 0 auto;font-size: 12px;line-height: 22px;color: #333333;text-align: left;overflow: hidden;}
+.problemIco{width: 100%;margin: 35px auto 0;}
+.problemLink{color: #4db7eb;font-size: 14px;}
+.problem-span{color: #ff0000;}
+.problemLink:hover{text-decoration: underline;}
+.problemCenter{width: 100%;}
+.problemPageBox{margin: 0 0 40px 95px;font-size: 12px;overflow: hidden;}
+.PageLink1{padding: 4px 10px 5px;}
+.problemPageBox a{color: #333333;}

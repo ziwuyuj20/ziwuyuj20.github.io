@@ -1,0 +1,85 @@
+/*修改*/
+/*页眉以及顶部导航栏*/
+*{margin: 0px;padding: 0px;list-style: none;text-decoration: none;font-family: Microsoft YaHei,Hiragino Sans GB;}
+input{outline: none;}
+img{border: none;}
+button{outline: none;cursor: pointer;margin: -5px;vertical-align: middle;}
+body{background: #ffffff;}
+.NavigationBarOutBox{width: 100%;height: 34px;border-bottom: 1px solid #c80b1a;}
+.NavigationBarBox{width: 1173px;margin: 0 auto;height: 34px;font-size: 16px;}
+.NavigationBarLink{display: block;float: left;color: #262626;line-height: 34px;padding-left: 23px;padding-right: 23px;}
+.NavigationBarLinkClick{color: #ffffff !important;background: #c80b1a;}
+.NavigationBarLink:hover{color: #c80b1a}
+.Navigation{width: 100%;height: 34px;background: #f1f1f1;font-size: 12px;line-height: 34px;}
+.NavigationBox{width: 1200px;margin: 0 auto;position: relative;}
+.NavigationBox a{color: #333333;}
+.NavigationLeft{float: left;}
+.NavigationLeft a{padding-left: 17px;background: url(../images/fhufhur.png) 0px 2px no-repeat;}
+.NavigationRight{float: right;position: relative;height: 34px;}
+.NavigationRight a{padding: 0 10px;display: inline-block;height: 12px;float: left;border-right:1px solid #d7d7d7;line-height: 13px;margin-top: 9px;}
+.searchOut{width: 100%;height: 120px;border-bottom: 1px solid #cccccc;}
+.searchBox{width: 1200px;margin: 0 auto;}
+.logoImg{width: 203px;height: 53px;vertical-align: middle;margin-top: 25px;display: block;float: left;}
+.searchCenterBox{width: 522px;float: left;margin: 42px 0 42px 141px;height: 36px;}
+.searchIpt{width: 367px;height: 32px;border: 2px solid #c81523;line-height: 32px;padding-left: 3px;color: #333;vertical-align: middle;}
+.searchCenterBox button{font-size: 12px;line-height: 36px;text-align: center;color: #ffffff;border: none;margin-left: -5px;vertical-align: middle;}
+.stationBtn{background: #c81523;padding-left: 19px;padding-right: 19px;}
+.shopeBtn{width: 60px;background: #666666;}
+.MainShop{width: 230px;height: 34px;;border: 1px solid #e6e6e6;background: #ededed;font-size: 12px;float: right;margin-top: 42px;overflow: hidden;}
+.MainShop a{color: #333333;display: block;float: left;margin-top: 7px;}
+.Flagship{width: 120px;text-align: center;border-right: 1px solid #d9d9d9;line-height: 20px;}
+.searchShope{width: 108px;vertical-align: middle;padding-top: 2px;}
+.searchShope img{width: 20px;height: 18px;margin: 1px 5px 0 13px;vertical-align: middle;}
+.JQlogo{margin: 0px auto;display: block;}
+.JQlogoW{width: 100%;}
+.Navigation2{width: 100%;height: 40px;background: #ff3356;margin: 0 auto;}
+.NavigationLink{width: 1006px;margin: 13px auto 0;font-size: 15px;line-height: 15px;}
+.NavigationLink a{display: block;padding-left: 20px;padding-right: 20px;color: #ffffff;border-left: 1px solid #ffffff;float: left;}
+.NavigationRight .STYPEGOODS,.NavigationRight .STYPEGOODS1{padding: 0;float: left;border-right:none;margin-top: 0px;line-height: 30px;height: 34px;display: block;overflow: hidden;}
+.STYPEGOODS1 p{padding: 0 10px;}
+.STYPEGOODS p{float: left;}
+.STYPEGOODS img{display: block;float: left;}
+.Mobile{width: 13px;height: 22px;margin: 4px 5px 0 10px;}
+.Arrow1{width: 7px;height: 4px;margin: 13px 4px 0 8px;}
+.ShoppingCartLink{width: 115px;height: 40px;float: left;margin: 40px 0 0 175px;}
+.ShoppingCartLink img{width: 100%;height: 100%;}
+.QRCode{width: 200px;position: absolute;left: 983px;top: 34px;display: block;overflow: hidden;border: 1px solid #cccccc;border-top: none;background: #ffffff;z-index: 500;display: none;}
+.QRCode img{width: 180px;margin: 5px auto;display: block;}
+.FlagshipStoreBox{width: 229px;height: 34px;background: #ededed;border: 1px solid #e6e6e6;font-size: 12px;float: right;margin-top: 42px;overflow: hidden;}
+.FlagshipStoreBox a{height: 20px;line-height: 20px;color: #585858;margin-top: 7px;border-right: 1px solid #d9d9d9;display: block;float: left;}
+.Bookmark{width: 108px;height: 20px;}
+.BookmarkImg{width: 18px;height: 16px;margin: 2px 6px 0 14px;display: block;float: left;}
+.Bookmark p{float: left;}
+/*底部*/
+.footerNavigation{margin: 38px auto;font-size: 18px;width: 1000px;}
+.footerNavigation a{display: block;width: 124px;height: 30px;float: left;border-left: 1px solid #b2b2b2;color: #0d0d0d;}
+.footerNavigation p{width: 100%;text-align: center;margin-top: 4px;}
+.ens{font-size: 12px;}
+.returnTop{width: 134px;height: 30px;margin: 30px auto 0;line-height: 30px;background: #333333;font-size: 15px;text-align: center;color: #ffffff;display: block;border: none;cursor: pointer;outline: none;}
+.service{width: 1113px;margin: 76px auto;overflow: hidden;}
+.service li{float: left;border-right: 1px solid #cccccc;height: 50px;}
+.service a{display: block;width: 100%;height: 100%;overflow: hidden;}
+.service img{width: 50px;height: 50px;display: block;float: left;margin-left: 30px;}
+.serviceTxt{float: left;font-size: 17px;color: #868686;margin-right:29px;}
+.serviceTxt p{padding-left: 15px;margin-top: 5px;}
+.footer{width: 675px;margin: 43px auto 0;font-size: 12px;line-height: 12px;text-align: center;}
+.footer a{border-left: 1px solid #cccccc;display: block;float: left;color: #333333;padding: 0 12px;}
+.copy{width: 320px;margin: 10px auto 59px;font-size: 12px;color: #666666;}
+.allOut{width: 1000px;position: absolute;left: 0px;top: 50px;background: #fafafa;border: 1px solid #e6e6e6;z-index: 99;}
+.allHead{width: 100%;height: 39px;line-height: 39px;font-size: 14px;color: #1a1a1a;}
+.footersearchOutBox{width: 100%;height: 90px;background: #f4f4f4;margin: 81px auto 71px;overflow: hidden;}
+.footersearchBox{width: 489px;height: 40px;margin: 25px auto 0;}
+/*各种弹出*/
+.TYPEBOX,.NAVIGATION{width: 1200px;position: absolute;left: 0px;top: 32px;background: #fff;z-index: 999;display: none;}
+.TYPECENTERBOX{width: 100%;margin: 20px auto;overflow: hidden;font-size: 15px;color: #333333;}
+.TYPELEFT{width: 150px;float: left;text-align: right;}
+.TYPERIGHT{width: 900px;float: right;overflow: hidden;font-size: 12px;}
+.TYPERIGHT a{width: 150px;display: block;float: left;color: #333333;}
+.BGC{background: #fff;}
+/*侧边栏*/
+.SIDEBARBOX{width: 35px;position: fixed;right: 0px;top: 40%;cursor: pointer;z-index: 99;}
+.SIDEBAR{width: 35px;height: 35px;display: block;position: relative;}
+.SIDEBARBGC{width: 35px;height: 35px;background: #1a1a1a;}
+.SIDEBARTXT{width:100px;line-height: 35px;color: #fff;padding: 0 10px;position: absolute;right: 35px;top: 0px;background: #1a1a1a;z-index: -1;display: none;}
+.SIDEBARBGCBOX{width: 35px;position: fixed;top: 0px;right: 0px;background: #1a1a1a;}
+.hoverColor{background: #c80b1a;}

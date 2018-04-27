@@ -1,0 +1,11 @@
+*{margin: 0;padding: 0;list-style: none;text-decoration: none;}
+img{border: none;}
+html,body{width: 100%;}
+.box{margin: 0 auto;overflow: hidden;position: relative;}
+.imgUl{position: absolute;left: 0%;overflow: hidden;}
+.imgUl li{float: left;}
+.imgUl a{display: block;width: 100%;}
+.img{width: 100%;}
+.disnumUl,.numUl{overflow: hidden;margin: 0 auto;}
+.disnumUl li,.numUl li{float: left;width: 20px;height: 20px;text-align: center;line-height: 20px;font-size: 12px;color: #fff;background: #999;border-radius: 50%;font-weight: bold;margin-left: 10px;cursor: pointer;}
+.numBox{position: absolute;bottom: 20px;z-index: 2;}

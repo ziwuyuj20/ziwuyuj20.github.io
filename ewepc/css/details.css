@@ -1,0 +1,49 @@
+*{margin: 0px;padding: 0px;list-style: none;text-decoration: none;font-family: Microsoft YaHei,Hiragino Sans GB;}
+.outBox{width: 100%;background: #f5f5f5;}
+.navigation{width: 1096px;height: 36px;margin: 0 auto;font-size: 12px;line-height: 36px;}
+.navigationLi1{margin-left: 10px;width: 200px;height: 36px;float: left;text-align: left;}
+.navigationLi1 a{display: block;width: 100%;height: 100%;color: #000000;}
+.navigationLi2{margin-left: 10px;width: 100px;height: 36px;float: left;text-align: left;text-align: center;}
+.navigationLi2 a{display: block;width: 100%;height: 100%;color: #000000;}
+.nbkBox{width: 100%;height: 106px;background: #e45050;}
+.nbkCenterBox{margin: 0 auto;width: 1100px;height: 106px;font-size: 16px;}
+.nbkCenterBox img{display: block;float: left;margin-top:22px;}
+.nbkCenterBox a{color: #ffffff;line-height: 106px;display: block;float: left;}
+.nbkHpage{width: 100px;margin-left: 70px;}
+.as{width: 100px;}
+.news{width: 100px;float: left;}
+.nbkIpt{width: 210px;height: 32px;background: #fff;font-size: 20px;line-height: 32px;border: none;display: block;float: left;margin: 33px 0 0 165px;}
+.nbkBtn{width: 80px;height: 32px;background: #f7f7f7;text-align: center;line-height: 32px;color: #232323;font-size: 16px;float: left;display: block;border: none;margin-top: 33px;cursor: pointer;}
+.footerBox{width: 100%;background: #fff;}
+.footerNgtUl{margin-top: 30px;border-top: 1px #f3f3f3 solid;line-height: 60px;width: 960px;margin: auto;color: #767677;font-size: 12px;text-align: center;}
+.footerNgtUl a{color: #333;}
+.footerTxt{width: 100%;line-height: 30px;font-size: 12px;text-align: center;}
+.centerBox{width: 1210px;margin: 0 auto;background: #f5f5f5;overflow: hidden;}
+.cancelIco{margin: 10px auto;font-size: 12px;line-height: 30px;cursor: pointer;}
+.progressBox{width: 1100px;margin: 68px auto 30px;background: #ffffff;overflow: hidden;}
+.progressUl,.progressUlTxt{width: 555px;margin: 36px auto 0px;font-size: 12px;color: #ffffff;}
+.progressIco1,.progressIco,.progressIcoTxt{float: left;width: 138px;height: 26px;text-align: center;line-height: 26px;}
+.progressIco1{background: url(../images/sww.png) 0px 0px no-repeat;}
+.progressIco{background: url(../images/wer.png) 0px 0px no-repeat;}
+.progressIcoTxt{color: #a5d5f6;}
+.progressIcoTxtC{color: #44a3e1;}
+.progressUlTxt{margin-top:10px;margin-bottom: 20px;}
+.disputeSheetBox{width: 1100px;margin: 0 auto;background: #ffffff;overflow: hidden;}
+.sheetHeadBox{height: 47px;line-height: 47px;font-size: 12px;color: #666666;border-bottom: 1px solid #f5f5f5;}
+.SheetCenter{overflow: hidden;}
+.SheetCenter img{width: 48px;height: 48px;display: block;float: left;margin: 40px 20px 0 296px;}
+.SheetTxt{width: 334px;float: left;font-size: 15px;line-height: 20px;margin-top: 40px;}
+.SheetBTnBox{width: 211px;height: 25px;overflow: hidden;margin: 20px auto 60px;}
+.SheetBTnBox a{display: block;float: left;font-size: 12px;text-align: center;}
+.update{width: 105px;height: 25px;color: #ffffff;background: #e33c3f;line-height: 25px;}
+.resolved{width: 90px;height: 23px;border: 1px solid #e1e1e1;line-height: 23px;color: #333333;margin-left: 14px;}
+.singleBox{width: 1100px;margin: 21px auto 50px;background: #ffffff;}
+.singleTable{margin: 0 auto;border-bottom: 1px solid #eeeeee;font-size: 12px;color: #999999;line-height: 35px;}
+.singleTd1,.singleTd1Div{width: 249px;}
+.singleTd2,.singleTd2Div{width: 431px;border-left: 1px solid #f5f5f5;border-right: 1px solid #f5f5f5;padding-left: 3px;position: relative;}
+.seal{width: 197px;height: 103px;position: absolute;left: 101px;top: 17px;}
+.singleTd3,.singleTd3Div{width: 285px;}
+.singleTd3Div p{margin-left: 26px;}
+.Track{width: 975px;margin: 0 auto;}
+.Track{width: 975px;margin: 0 auto;font-size: 12px;color: #e4393c;}
+.Track li{height: 30px;line-height: 30px;}
