@@ -1,0 +1,15 @@
+*{margin:0px;padding: 0px;list-style: none;text-decoration: none;-webkit-padding-start: 0px;font-family: "微软雅黑";outline:none;}
+body{font-size: 62.5%;max-width: 720px;min-width: 320px;width: 100%;margin: 0 auto;_width:expression(document.body.clientWidth > 768 ? "768px" : "auto");background: #cccccc;}
+/*去除页面底部出现的loading文本*/
+.ui-loader-default{ display:none;}  
+.ui-mobile-viewport{ border:none;}  
+.ui-page{padding: 0; margin: 0; outline: 0;} 
+/*轮播图样式 */
+.goods_out_box{width: 100%;overflow: hidden;position: relative;z-index: 900;}
+.goods_Carousel_ul{overflow: hidden;position: absolute;left: 0%;relative;z-index: 900;}
+.goods_Carousel_li{float: left;}
+.goods_Carousel_li a{width: 100%;}
+/*小圆点样式*/
+.disnumUl,.numUl{overflow: hidden;margin: 0 auto;}
+.disnumUl li,.numUl li{float: left;width: 20px;height: 20px;text-align: center;line-height: 20px;font-size: 12px;color: #fff;background: #999;border-radius: 50%;font-weight: bold;margin-left: 10px;cursor: pointer;}
+.numBox{position: absolute;bottom: 20px;z-index: 999;width: 100%}

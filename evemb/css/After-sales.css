@@ -1,0 +1,4 @@
+/*下单时间*/
+.order_head_left_txt,.progress_txt{display: inline-block;vertical-align: middle;color: #262626;}
+.order_head_left{font-size: 1.2em;margin-left: 2.66666%;margin-bottom: 10px;}
+.order_head_left_txt_1{display: inline-block;vertical-align: middle;color: #262626;line-height: 15px;}

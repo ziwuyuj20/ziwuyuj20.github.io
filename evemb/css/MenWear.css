@@ -1,0 +1,56 @@
+*{margin:0px;padding: 0px;list-style: none;text-decoration: none;-webkit-padding-start: 0px;font-family: "微软雅黑";font-size:12px;outline:none;}
+body{max-width: 720px;min-width: 320px;width: 100%;margin: 0 auto;_width:expression(document.body.clientWidth > 768 ? "768px" : "auto");background: #ededed;}
+.ui-loader-default{ display:none}
+.ui-mobile-viewport{ border:none;}
+.ui-page {padding: 0; margin: 0; outline: 0}
+.headBox{width: 100%;background: #f5184c;margin: 0 auto;max-width: 720px;}
+.returnBtn{width: 2.4%;display: inline-block;vertical-align: middle;margin-left: 2.66666%;}
+.returnBtn img{width: 100%;}
+.tittle{display: inline-block;width: 83.93333%;text-align: center;font-size: 1.125em;line-height: 44px;color: #ffffff;}
+.news{display: inline-block;width: 5.33333%;vertical-align:middle;margin-right: 2.66666%;}
+.news img{width: 100%;}
+.outBox{width: 100%;position: fixed;top: 0px;left: 0px;}
+.classBox{width: 100%;overflow: hidden;background: #ffffff;border-bottom: 1px solid #cccccc;z-index: 10;}
+.classCenter{width: 85.46666%;float: left;font-size: 0.875em;overflow: hidden;position: relative;margin-left: 4.26666%;}
+.classIco,.classIco1{line-height: 41px;float: left;}
+.classIco a,.classIco1 a{display: block;width: 100%;color: #1a1a1a;border-bottom: 2px solid #ffffff;}
+.openbutton,.closebutton{width: 9.06666%;float:left;height: 43px;background: #ffffff;border-left:1px solid #cccccc;}
+.openbutton img,.closebutton img{width: 44.11764%;margin: 17px auto;display: block;}
+.classUl{overflow: hidden;position: absolute;left: 0%;}
+.classIco .classIcoLink{color: #F5184C;border-bottom: 2px solid #F5184C;}
+.goodUl{width: 100%;margin: 0 auto;font-size: 12px;color: #404040;}
+.goodUl li{width: 100%;overflow: hidden;margin-top: 5px;}
+.goodLeftLink{width: 49.33333%;float: left;display: block;border-bottom: 2px solid #d9d9d9;background: #ffffff;}
+.goodRightLink{width: 49.33333%;float: right;display: block;border-bottom: 2px solid #d9d9d9;background: #ffffff;}
+.loadImg{width: 100%;display: block;margin-bottom: 5px;}
+.goodName{width: 91.89189%;margin: 0 auto;font-weight: bold;line-height: 20px;color: #404040;font-size: 12px;}
+.operationBox{width: 91.89189%;overflow: hidden;margin: 13px auto;font-weight: bold;}
+.Price{float: left;color: #F5184C;}
+.collectionImg{width: 13.37386%;float: right;}
+.RecommendBox{width: 91.06666%;margin: 19px auto;overflow: hidden;font-size: 0.75em;color: #999999;}
+.line{width: 32.79648%;height: 1px;background:#cccccc;vertical-align: middle;display: inline-block;}
+.EndTxt{display: inline-block;width: 31.69985%;text-align: center;font-size: 12px;}
+.footer{width: 100%;overflow: hidden;font-size: 12px;color:#666666;margin: 0 auto;background: #f5f5f5;border-top: 1px solid #d9d9d9;position: fixed;bottom: 0px;max-width: 720px;}
+.footer li{width: 25%;float: left;font-size: 12px;}
+.indexImg{width: 22.7027%;display: block;margin: 7px auto 0;}
+.footer p{width: 100%;color;#666666;text-align: center;margin: 5px auto;}
+.topBtn{width: 40px;height: 40px;position: fixed;bottom: 94px;right: 20px;z-index: 10;display: none;}
+.maskBox{width: 100%;height: 100%;position: absolute;top: 0px;left: 0px;z-index: 99;background-color: rgba(0, 0,0, 0.25);display:none;filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);position: fixed;}
+.allClass{width: 86.86666%;float: left;margin-left: 2.66666%;font-size:14px;color: #666666;line-height: 43px;}
+.maskClass{width: 94.66666%;margin: 0 auto;overflow: hidden;font-size: 15px;}
+.classOutBox{width: 100%;background: #FFFFFF;}
+.maskOutBox{width: 100%;}
+.maskClass li a{font-size: 15px;}
+.maskClass li{width: 33.33333%;text-align: center;margin-right: 0px !important;}
+.closebutton{z-index: 99;}
+
+
+
+
+
+
+
+
+
+
+

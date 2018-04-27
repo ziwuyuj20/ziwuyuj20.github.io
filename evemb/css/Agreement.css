@@ -1,0 +1,13 @@
+/*通用样式*/
+*{margin:0px;padding: 0px;list-style: none;text-decoration: none;-webkit-padding-start: 0px;font-family: "微软雅黑";outline:none;}
+body{max-width: 720px;min-width: 320px;width: 100%;margin: 0 auto;_width:expression(document.body.clientWidth > 768 ? "768px" : "auto");background: #ffffff;font-size: 62.5%;}
+.ui_loader_default{ display:none}
+.ui_mobile_viewport{ border:none;}
+.ui_page {padding: 0; margin: 0; outline: 0}
+/*内容*/
+.tittle{width: 100%;color: #000;font-weight: 700;line-height: 31px;background: #f3f3f3;font-size: 1.4em;margin: 10px auto 0;text-align: center;}
+.txt_center_box{width: 90%;margin: 10px auto 0;}
+.tittle_1{color: #333;font-size: 14px;width: 100%;}
+.txt{width: 100%;line-height: 20px;font-size: 1.2em;color: #000;}
+h5{width: 100%;margin: 10px auto 0;color: #333;font-size: 1.4em;
+}

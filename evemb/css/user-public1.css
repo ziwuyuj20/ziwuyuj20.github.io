@@ -1,0 +1,11 @@
+/*通用样式*/
+*{margin:0px;padding: 0px;list-style: none;text-decoration: none;-webkit-padding-start: 0px;font-family: "微软雅黑";outline:none;}
+body{max-width: 720px;min-width: 320px;width: 100%;margin: 0 auto;_width:expression(document.body.clientWidth > 768 ? "768px" : "auto");background: #ffffff;font-size: 62.5%;}
+.ui_loader_default{ display:none}
+.ui_mobile_viewport{ border:none;}
+.ui_page {padding: 0; margin: 0; outline: 0}
+/*头部样式*/
+.public1_head_box{width: 100%;font-size: 1.8em;overflow: hidden;color: #1a1a1a;border-bottom: 1px solid #CCCCCC;}
+.public1_return_btn{display: inline-block;vertical-align: middle;margin-left: 2.66666%;width: 2.4%;}
+.public1_return_img{width: 100%;}
+.public1_head_txt{width: 89.866666%;display: inline-block;vertical-align: middle;text-align: center;line-height: 44px;font-weight: 100;font-size: 1.8em;}

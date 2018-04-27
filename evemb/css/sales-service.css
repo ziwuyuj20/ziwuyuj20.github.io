@@ -1,0 +1,66 @@
+/*通用样式*/
+*{margin:0px;padding: 0px;list-style: none;text-decoration: none;-webkit-padding-start: 0px;font-family: "微软雅黑";outline:none;}
+body{max-width: 720px;min-width: 320px;width: 100%;margin: 0 auto;_width:expression(document.body.clientWidth > 768 ? "768px" : "auto");background: #ffffff;font-size: 62.5%;background: #f5f5f5;}
+.ui_loader_default{ display:none}
+.ui_mobile_viewport{ border:none;}
+.ui_page {padding: 0; margin: 0; outline: 0}
+.public1-head-box{border-bottom: 1px solid #cccccc;background: #ffffff;}
+/*******/
+.public1_return_btn_1{display: none;}
+/*商品*/
+.commodity_box{width: 100%;background: #ffffff;overflow: hidden;display: block;margin: 10px auto 0px;border-bottom: 1px solid #cccccc;}
+.commodity_img{width: 17.73333%;display: block;float: left;border: 1px solid #e6e6e6;border-radius: 5px;margin: 11px 0 0 2.66666%;}
+.commodity_right{width: 71.33333%;float: right;margin-top: 10px;font-size: 1.2em;}
+.Commodity_txt_1{width: 100%;color: #262626;display: block;}
+.Commodity_txt_2{width: 100%;color: #262626;margin-top: 30px;margin-bottom: 30px;}
+/*服务类型*/
+.Service_type_box{width: 100%;border-bottom: 1px solid #cccccc;background: #ffffff;font-size: 1.3em;color: #262626;overflow: hidden;margin-top: 10px;}
+.Service_head{width: 50%;margin: 20px 0 0 2.66666%;}
+.Service_btn_box{width: 100%;border-bottom: 2px solid #e01818;overflow: hidden;margin-top: 15px;}
+.Service_btn{text-align: center;line-height: 40px;color: #262626;float: left;width: 50%;}
+.Service_btn_click{background: #e01818;color: #ffffff;}
+/*商品数量调整*/
+.number_box{width: 25.33333%;margin: 13px 0 20px 2.66666%;border: 1px solid #666666;font-size: 1.4em;line-height: 30px;text-align: center;border-radius: 3px;overflow: hidden;}
+.number_btn_1{width: 31.05263%;float: left;display: block;}
+.number_btn_2{width: 31.05263%;float: left;display: block;}
+.number_box input{width: 35.18918%;float: left;display: block;border: none;border-right: 1px solid #666666;border-left: 1px solid #666666;line-height: 30px;text-align: center;}
+/*问题描述*/
+.textarea{width: 94.66666%;margin: 13px auto 0;border: none;border-top: 1px solid #e6e6e6;line-height: 20px;font-size: 1em;color: #999999;height: 113px;display: block;resize: none;}
+.Word_limit{width: 94.66666%;margin: 0 auto 14px;font-size: 1em;color: #999999;text-align: right;}
+.upload_ul{width: 94.66666%;margin: 12px auto;overflow: hidden;}
+.upload_ico{width: 30%;float: left;margin: 10px 2.66666% 0 0;}
+.upload_ico img{width: 100%;display: block;border: 1px solid #e6e6e6;border-radius: 5px;}
+.upload_out{width: 20%;margin-left: 2.66666%;margin: 10px 0 10px 2.66666%;position: relative;overflow: hidden;border: 1px solid #e6e6e6;}
+.upload_btn{width: 99%;height: 100%;display: block;position: absolute;left: 0px;top: -21px;background-color:rgba(0,0,0,0);filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);}
+.upload_txt{width: 100%;line-height: 60px;font-size: 3em;text-align: center;color: #bfbfbf;}
+.upload_txt_1{width: 94.66666%;font-size: 1.2em;color: #8a8a8a;margin: 11px auto 21px;}
+/*提交按钮*/
+.Submit{width: 89.33333%;display: block;line-height: 40px;font-size: 1.5em;color: #ffffff;text-align: center;background: #e63322;margin: 38px auto 50px;border-radius: 5px;}
+/*退款/退换货原因*/
+.Service_reason{width: 100%;}
+.Service_reason_li{width: 100%;font-size: 1em;color: #262626;line-height: 44px;border-bottom: 1px solid #cccccc;overflow: hidden;}
+.Service_reason_left{float: left;width: 25%;margin-left: 2.66666%;}
+.Service_reason_right{float: left;width: 67%;margin-left: 2.66666%;display: block;border: none;line-height: 44px;}
+/*退款/退换货理由*/
+.Reason_ul_box{width: 100%;display: none;color: #262626;}
+.Reason_ul{width: 100%;background: #FFFFFF;font-size: 1.5em;border-bottom: 1px solid #cccccc;}
+.Reason_li{border-bottom: 1px solid #cccccc;line-height: 40px;width: 90%;margin: 0 auto;}
+.Reason_btn{width: 100%;line-height: 44px;color: #FFFFFF;text-align: center;font-size: 1.5em;position: fixed;bottom: 0px;background: #e01818;}
+/*进度查询*/
+/*进度条*/
+.bar_box{width: 100%;;}
+.Progress_bar_box{width: 100%;background: #ffffff;margin: 10px auto 0;overflow: hidden;}
+.Progress_bar{width: 84.93333%;margin: 22px auto 0;overflow: hidden;}
+.Progress_li_1{width: 12.8125%;display: inline-block;vertical-align: middle;}
+.Progress_li_1 img{width: 100%;height: 100%;}
+.Progress_li_2{width: 27.21875%;color: #cccccc;display: inline-block;vertical-align: middle;text-align: center;}
+.Progress_li_txt_1{font-size: 1.3em;color: #999999;display: inline-block;vertical-align: middle;line-height: 35px;width: 14.75%;}
+.Progress_li_txt_2{font-size: 1.3em;color: #999999;display: inline-block;vertical-align: middle;line-height: 35px;width: 24.3125%;margin: 0 21.34375%;}
+.Progress_li_2_color{color: #e63322;}
+.Progress_li_txt{color: #e63322;}
+
+
+
+
+
+

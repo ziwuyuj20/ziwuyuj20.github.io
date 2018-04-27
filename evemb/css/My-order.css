@@ -1,0 +1,47 @@
+/*通用样式*/
+*{margin:0px;padding: 0px;list-style: none;text-decoration: none;-webkit-padding-start: 0px;font-family: "微软雅黑";outline:none;}
+body{max-width: 720px;min-width: 320px;width: 100%;margin: 0 auto;_width:expression(document.body.clientWidth > 768 ? "768px" : "auto");background: #ffffff;font-size: 62.5%;}
+.ui_loader_default{ display:none}
+.ui_mobile_viewport{ border:none;}
+.ui_page {padding: 0; margin: 0; outline: 0}
+body{background: #f5f5f5;}
+/*订单 */
+.order_ul{width: 100%;}
+.order_li{width: 100%;margin: 30px auto 0;}
+.order_head,.order_head_1{color: #1a1a1a;line-height: 38px;overflow: hidden;background: #ffffff;display: block;}
+.order_head_left{float: left;width: 70%;font-size: 1.4em;}
+.shop_img,.shop_img_2{width: 7.23809%;display: inline-block;vertical-align: middle;margin-left: 2.6666%;}
+.shop_name,.shop_name_1{display: inline-block;vertical-align: middle;margin-left: 2.66666%;}
+.shop_name{color: #1a1a1a;}
+.order_name_txt,.order_name_txt_1{color: #262626;}
+.shop_img_1,.shop_img_3{width: 3.33333%;display: inline-block;vertical-align: middle;margin-left: 2.66666%;}
+.shop_img_4{width: 2.33333%;display: inline-block;vertical-align: middle;margin-right: 2.66666%;}
+.order_head_right{float: right;margin-right: 2.66666%;font-size: 1.4em;color: #e84030;}
+.shop_center_box{width: 100%;overflow: hidden;}
+.order_img{width: 19.733333%;border: 1px solid #ebebeb;border-radius: 5px;;margin-left: 2.66666%;float: left;margin-top: 21px;}
+.order_name{width: 49.33333%;float: left;margin: 21px 0 0 3.62162%;font-size: 1.2em;}
+.order_name1{width: 43.33333%;float: left;margin: 21px 0 0 3.62162%;font-size: 1.2em;}
+.Specifications,.Specifications_1{width: 100%;font-size: 1.2em;color: #999999;}
+.price_box{width: 18.66666%;font-size: 1.3em;margin-right: 2.66666%;float: left;text-align: right;margin-top: 21px;}
+.price_num{color: #262626;width: 100%;}
+.goods_num{color: #999999;width: 100%;}
+.Actual_payment{width: 100%;background: #ffffff;line-height: 29px;text-align: right;margin-top: 15px;font-size: 1.2em;color: #262626;display: block;}
+.btn_box{width: 100%;background: #ffffff;font-size: 1.3em;overflow: hidden;border-top: 1px solid #e6e6e6;border-bottom: 1px solid #e6e6e6;}
+.btn_box a{width: 19.73333%;display: block;float: right;margin: 6px 2.66666% 6px 0;line-height: 27px;text-align: center;}
+.logistics_link{border: 1px solid #4d4d4d;border-radius: 5px;color: #4d4d4d;}
+.Confirm_receipt{border: 1px solid #e63322;border-radius: 5px;color: #e63322;}
+.act_box{width: 80%;display: inline-block;vertical-align: middle;}
+.che_all1{width: 9%;display: inline-block;vertical-align: middle;margin-left: 3.66666%;}
+.che_1,.che_2{width: 6%;float: left;margin: 22px 0 0 2.66666%;}
+/*删除*/
+.delete_box{width: 100%;border-top: 1px solid #d9d9d9;background: #ffffff;line-height: 50px;position: fixed;bottom: 0px;display: none;}
+.all{width: 5.06666%;display: inline-block;vertical-align: middle;margin-left: 6.26666%;}
+.all_txt{font-size: 1.4em;color: #1a1a1a;margin-left: 2.66666%;display: inline-block;vertical-align: middle;}
+.delete_btn{width: 29.6%;font-size: 1.6em;line-height: 40px;background: #e63322;color: #ffffff;text-align: center;margin-left: 43%;display: inline-block;vertical-align: middle;}
+/*统一支付按钮*/
+.pay_box1{width: 100%;position: fixed;bottom: 0px;overflow: hidden;display: none;}
+.pay_box1 button{width: 50%;line-height: 40px;line-height: 40px;font-size: 1.6em;color: #FFFFFF;text-align: center;border: none;float: left;}
+.pay_btn1{background: #2662f1;border-right: 1px solid #FFFFFF;}
+.pay_btn2{background: #e63322;}
+/*提醒卖家发货*/
+.Prompt-box{width:33%;color: #FFFFFF;padding: 5px;position: fixed;top: 50%;left: 33%;font-size: 1.6em;text-align: center;border-radius: 3px;display: none;background-color: rgba(0, 0,0, 0.5);filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);}

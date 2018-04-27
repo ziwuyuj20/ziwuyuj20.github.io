@@ -1,0 +1,63 @@
+/*通用样式*/
+*{margin:0px;padding: 0px;list-style: none;text-decoration: none;-webkit-padding-start: 0px;font-family: "微软雅黑";outline:none;}
+body{max-width: 720px;min-width: 320px;width: 100%;margin: 0 auto;_width:expression(document.body.clientWidth > 768 ? "768px" : "auto");background: #ffffff;font-size: 62.5%;}
+.ui_loader_default{ display:none}
+.ui_mobile_viewport{ border:none;}
+.ui_page {padding: 0; margin: 0; outline: 0}
+body{background: #f5f5f5;}
+/*订单详情*/
+.Order_detail_box,.Order_detail_box1,.Order_detail_box2{width: 100%;}
+.Order_number_box{width: 100%;background: #ffffff;line-height: 41px;border-bottom: 1px solid #e6e6e6;}
+.Order_number_txt_1,.Order_number_txt_2{display: inline-block;vertical-align: middle;margin-left: 2.66666%;color: #262626;font-weight: bold;font-size: 1.5em;}
+.Order_number_txt_2{width: 50%;}
+.Order_number_txt_3{font-size: 1.5em;color: #e63322;display: inline-block;vertical-align: middle;margin-left: 10.5%;font-weight: bold;}
+.car{width: 4.66666%;margin-left: 2.66666%;display: inline-block;vertical-align: middle;}
+.Order_number_txt_4{width: 79%;display: inline-block;vertical-align: middle;margin-left: 2.66666%;color: #262626;font-weight: bold;font-size: 1.5em;line-height: 15px;}
+.Order_number_img{width: 2.66666%;display: inline-block;vertical-align: middle;margin-left: 2.66666%;}
+.man_information_box{width: 100%;margin: 10px auto 0;border-bottom: 1px solid #e5e5e5;background: #ffffff;overflow: hidden;}
+.man_information{width: 94.66666%;font-size: 1.4em;color: #272727;font-weight: bold;margin: 10px auto 0;}
+.man_address{width: 94.66666%;font-size: 1.3em;line-height: 15px;color: #8f8f8f;margin: 10px auto 10px;}
+.color_box{width: 100%;height: 15px;border-bottom: 1px solid #e5e5e5;background: #ffffff;margin-top: 10px;}
+.scb{width: 100%;}
+.no_odr{width: 100%;line-height: 100px;text-align: center;font-size: 2em;font-weight: bold;color: #999999;display: none;}
+.order_head,.order_head_1{color: #1a1a1a;line-height: 38px;overflow: hidden;background: #ffffff;display: block;}
+.order_head_left{float: left;width: 70%;font-size: 1.4em;}
+.shop_img,.shop_img_2{width: 7.23809%;display: inline-block;vertical-align: middle;margin-left: 2.6666%;}
+.shop_name,.shop_name_1{display: inline-block;vertical-align: middle;margin-left: 2.66666%;}
+.order_name_txt,.order_name_txt_1{color: #262626;}
+.shop_img_1,.shop_img_3{width: 3.33333%;display: inline-block;vertical-align: middle;margin-left: 2.66666%;}
+.shop_center_box{width: 100%;overflow: hidden;}
+.che_1,.che_2{width: 6%;float: left;margin: 22px 0 0 2.66666%;}
+.order_img{width: 19.733333%;border: 1px solid #ebebeb;border-radius: 5px;;margin-left: 2.66666%;float: left;margin-top: 21px;}
+.order_name1{width: 43.33333%;float: left;margin: 21px 0 0 3.62162%;font-size: 1.2em;}
+.order_name_txt,.order_name_txt_1{color: #262626;}
+.Specifications,.Specifications_1{width: 100%;font-size: 1.2em;color: #999999;}
+.price_box{width: 18.66666%;font-size: 1.3em;margin-right: 2.66666%;float: left;text-align: right;margin-top: 21px;}
+.price_num{color: #262626;width: 100%;}
+.goods_num{color: #999999;width: 100%;}
+.order_name{width: 49.33333%;float: left;margin: 21px 0 0 3.62162%;font-size: 1.2em;}
+.order_name1{width: 43.33333%;float: left;margin: 21px 0 0 3.62162%;font-size: 1.2em;}
+/*支付方式*/
+.Payment_method_box{width: 100%;margin: 10px auto 0;background: #ffffff;border-bottom: 1px solid #e6e6e6;font-size: 1.5em;overflow: hidden;line-height: 45px;}
+.Payment_method_left{float: left;color: #262626;font-weight: bold;margin-left: 2.66666%;}
+.Payment_method_right{float: right;color: #808080;font-weight: bold;margin-right: 2.66666%;}
+/*发票信息*/
+.Invoice_ul{width: 100%;background: #ffffff;border-bottom: 1px solid #e5e5e5;overflow: hidden;}
+.Invoice_li{width: 94.66666%;margin: 15px auto 0;}
+.Invoice_li_1{font-size: 1.5em;color: #262626;font-weight: bold;}
+.Invoice_li_2{font-size: 1.4em;color: #808080;}
+/*商品总额*/
+.Total_ul{width: 100%;background: #ffffff;margin: 10px auto 0;overflow: hidden;font-weight: bold;border-bottom: 1px solid #e5e5e5;}
+.Total_li{width: 94.66666%;margin: 15px auto 0;overflow: hidden;}
+.Total_li p{width: 50%;}
+.Total_li_left{float: left;font-size: 1.5em;float: left;color: #262626;}
+.Total_li_right{float: right;font-size: 1.4em;float: left;color: #e63322;text-align: right;}
+.Total_li_left_1{float: left;font-size: 1.4em;float: left;color: #c6c6c6;}
+.Total_li_2{width: 94.66666%;margin: 10px auto 0;font-size: 1.5em;text-align: right;}
+.Total_li_color{color: #e63322;}
+.Order_time{font-size: 1.2em;color: #999999;text-align: right;width: 94.66666%;margin: 11px auto 11px;}
+/*操作按钮*/
+.pay_box2,.pay_box3,.pay_box4{width: 100%;position: fixed;bottom: 0px;overflow: hidden;}
+.pay_box1 button,.pay_box2 button,.pay_box3 button,.pay_box4 a{width: 50%;line-height: 40px;line-height: 40px;font-size: 1.6em;color: #FFFFFF;text-align: center;border: none;float: left;display: block;}
+.pay_btn1,.pay2_btn1,.pay3_btn1,.pay4_btn1{background: #2662f1;border-right: 1px solid #FFFFFF;}
+.pay_btn2,.pay2_btn2,.pay3_btn2,.pay4_btn2{background: #e63322;}

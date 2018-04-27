@@ -1,0 +1,19 @@
+body{background: #f5f5f5;}
+/*领券中心*/
+.Call_center_box{width: 100%;}
+.Call_center_li{width: 94.66666%;margin: 10px auto 0;background: #ffffff;}
+.Call_center_li_left{width: 60.21126%;float: left;}
+.Call_center_li_right{width: 30.64788%;float: right;}
+.pri_box{width: 100%;color: #f39d12;font-weight: bold;margin-bottom: 7px;}
+.pri_box p{float: left;margin: 5px 0 0 1%;}
+.pri_p1{font-size: 1.2em;}
+.pri_p2{font-size: 3.5em;line-height: 30px;}
+.pri_p3{font-size: 1.2em;margin-top: 23px !important;}
+.pri_p4{font-size: 1em;line-height: 17px;margin-left: 2.66666%;color: #666666;}
+/*领取优惠券提示框*/
+.prompt_box_1{width: 100%;position: fixed;top: 0px;z-index: 999;display: none;}
+.prompt_box_1_out{width: 47%;border-radius: 5px;font-size: 1.5em;color: #FFFFFF;line-height: 15px;position:fixed;top:40%;left:28.6%;background-color:rgba(0,0,0,0.8);filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);}
+.prompt_box_1_txt{width: 80%;line-height: 15px;margin: 10px auto;text-align: center;}
+.public1_return_btn_1{display: none;vertical-align: middle;margin-left: 2.66666%;width: 2.4%;}
+/*优惠劵页码*/
+.page_box{width: 15%;border-radius: 4px;position: fixed;bottom: 9.5%;left:43%;line-height: 16px;z-index: 990;font-size:0.5em;text-align:center;background-color:rgba(0,0,0,0.25);filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);color: #FFFFFF;}

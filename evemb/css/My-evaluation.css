@@ -1,0 +1,49 @@
+/*通用样式*/
+*{margin:0px;padding: 0px;list-style: none;text-decoration: none;-webkit-padding-start: 0px;font-family: "微软雅黑";outline:none;}
+body{max-width: 720px;min-width: 320px;width: 100%;margin: 0 auto;_width:expression(document.body.clientWidth > 768 ? "768px" : "auto");background: #ffffff;font-size: 62.5%;}
+.ui_loader_default{ display:none}
+.ui_mobile_viewport{ border:none;}
+.ui_page {padding: 0; margin: 0; outline: 0}
+body{background: #f5f5f5;}
+/*头部*/
+.Collection_head_box{width: 100%;border-bottom: 1px solid #cccccc;background: #ffffff;position: fixed;top: 0px;}
+.return_btn{width: 2.66666%;display: inline-block;vertical-align: middle;margin-left: 2.66666%;}
+.Head_navigation{width: 29.33333%;margin-left: 30.26666%;font-size: 1.7em;color: #363636;line-height: 44px;display: inline-block;vertical-align: middle;text-align: center;}
+.Head_navigation p{width: 100%;border-bottom: 2px solid #ffffff;text-align: center;}
+.edit_btn{display: inline-block;vertical-align: middle;color: #666666;font-size: 1.5em;margin-left: 21.06666%;z-index: 999;}
+.edit_btn_2{display: none;}
+/*评价类型切换*/
+.Evaluation_type{width: 100%;background: #ffffff;border-bottom: 1px solid #e6e6e6;overflow: hidden;position: fixed;}
+.Evaluation_type_li{width: 50%;float: left;font-size: 1.4em;color: #262626;line-height: 44px;}
+.Evaluation_type_li p{width: 37.33333%;margin: 0 auto;border-bottom: 2px solid #ffffff;}
+.Evaluation_type_li .Evaluation_type_li_p{border-bottom: 2px solid #e63322;}
+/*全部评价*/
+.shop_ul{width: 100%;}
+.shop_li{width: 100%;border-bottom: 1px solid #e0e0e0;margin-top: 15px;background: #ffffff;}
+.shop_img_1{width: 5.06666%;margin-left: 2.66666%;vertical-align: middle;display: none;}
+.shop_img_2{width: 24%;border: 1px solid #ebebeb;border-radius: 5px;vertical-align: middle;display: inline-block;margin: 20px 0 20px 2.66666%;}
+.shop_div{width: 66%;display: inline-block;vertical-align: middle;margin-left: 3.46666%;margin-top: 15px;}
+.shop_txt{width: 100%;font-size: 1.3em;color: #1a1a1a;}
+.shop_txt_1{font-size: 1.5em;color: #1a1a1a;margin-top: 13px;margin-bottom: 13px;}
+/*有图评价*/
+.img_box{width: 94.6666%;margin: 0 auto;overflow: hidden;display: inline-block;vertical-align: middle;margin-left: 2.66666%;}
+.check_btn{width: 5.35211%;vertical-align: middle;display: none;margin-left: 2.66666%;}
+.img_li{width: 27.887323%;float: left;margin: 5px 2.46666% 0 0;}
+.evaluate_img{width: 100%;border: 1px solid #ebebeb;border-radius: 3px;display: block;}
+.evaluate_txt{width:94.6666%;font-size: 1.3em;color: #1a1a1a;line-height: 15px;margin: 10px auto 11px;}
+/*删除评价*/
+.Cancel_attention_box_1{width: 100%;background: #ffffff;border-top: 1px solid #e0e0e0;position: fixed;bottom: 0px;}
+.Cancel_attention_btn_1{width: 48%;font-size: 1.4em;color: #ffffff;background: #e63322;display: block;border: none;line-height: 40px;margin: 5px auto;border-radius: 5px;}
+/*有图评论区详情图片遮罩*/
+.Mask_Img_box{width: 100%;position: fixed;left: 0px;top: 0px;z-index: 999;display: none;background-color:rgba(0,0,0,0.25);filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);}
+.Mask_Img{width: 100%;position: fixed;top: 20%;}
+.Mask_Img_out{width: 100%;overflow: hidden;position: relative;}
+.Mask_Img_close_btn{width: 7%;font-size: 3.6em;position: absolute;top: 22%;right: 7%;font-weight: bold;color: #FFFFFF;}
+
+
+
+
+
+
+
+

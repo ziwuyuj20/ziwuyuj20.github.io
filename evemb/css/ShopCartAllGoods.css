@@ -1,0 +1,47 @@
+.Store-data-ul-box{width: 100%;background: #ffffff;overflow: hidden;}
+.Store-data-ul{width: 100%;overflow: hidden;margin: 14px auto;}
+.Store-data-li{width: 24.733333%;float: left;text-align: center;border-left:1px solid #e0e0e0;}
+.Store-data-li-txt1{font-size: 15px;color: #4d4d4d;font-weight: bold;}
+.Store-data-li-txt2{font-size: 12px;color: #4d4d4d;}
+.store-ul{width: 100%;background: #ffffff;margin: 10px auto 0;border-bottom: 1px solid #d9d9d9;}
+.store-li{width: 94.666666%;font-size: 14px;overflow: hidden;border-bottom: 1px solid #d9d9d9;line-height: 44PX;margin: 0 auto;}
+.store-li-p1{width: 23.94366%;float: left;color: #5a5a5a;font-weight: bold;}
+.store-li-p2{width: 72%;float: left;color: #808080;}
+.store-li-p2 img{width: 5.55555%;margin-top: 15px;}
+.brand{width: 96.7334%;line-height: 40px;border-top: 1px solid #d9d9d9;background: #ffffff;margin: 10px auto 0;padding-left: 2.6666%;}
+.trademark-box{width: 94.66666%;margin: 0 auto 73px;}
+.trademark-img{margin: 10px 4% 0 0;width: 20%;}
+.Popup-box{width: 100%;background-color: rgba(0, 0,0, 0.25);filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);z-index: 999;position: fixed;top: 0px;display: none;}
+.Popup-center-box{width: 90.04%;margin: 238px auto;background: #f7f7f7;border-radius: 5px;border:1px solid #999999;}
+.Popup-store-name{text-align: center;line-height: 49px;color: #1a1a1a;border-bottom: 1px solid #b3b3b3;font-size: 17px;}
+.RQimg{width: 44.24778%;margin: 30px auto;}
+
+/*商品*/
+.goodUl{width: 100%;margin: 0 auto 73px;font-size: 12px;color: #404040;}
+.goodUl li{width: 100%;overflow: hidden;margin-top: 5px;}
+.goodLeftLink{width: 49.33333%;float: left;display: block;border-bottom: 2px solid #d9d9d9;background: #ffffff;}
+.goodRightLink{width: 49.33333%;float: right;display: block;border-bottom: 2px solid #d9d9d9;background: #ffffff;}
+.loadImg{width: 100%;display: block;margin-bottom: 5px;}
+.goodName{width: 91.89189%;margin: 0 auto;font-weight: bold;line-height: 20px;color: #404040;}
+.operationBox{width: 91.89189%;overflow: hidden;margin: 13px auto;font-weight: bold;}
+.Price{float: left;color: #F5184C;}
+.collectionImg{width: 13.37386%;float: right;}
+
+/*领券中心*/
+.Call_center_box{width: 100%;}
+.Call_center_li{width: 100%;margin: 10px auto 0;background: #ffffff;}
+.Call_center_li_left{width: 50.21126%;float: left;margin-left: 14%;}
+.Call_center_li_right{width: 30.64788%;float: right;}
+.pri_box{width: 100%;color: #f39d12;font-weight: bold;margin-bottom: 7px;}
+.pri_box p{float: left;margin: 5px 0 0 1%;}
+.pri_p1{font-size: 1.2em;}
+.pri_p2{font-size: 3.5em;line-height: 30px;}
+.pri_p3{font-size: 1.2em;margin-top: 23px !important;}
+.pri_p4{font-size: 1em;line-height: 17px;margin-left: 2.66666%;color: #666666;}
+/*领取优惠券提示框*/
+.prompt_box_1{width: 100%;position: fixed;top: 0px;z-index: 999;display: none;}
+.prompt_box_1_out{width: 47%;border-radius: 5px;font-size: 1.5em;color: #FFFFFF;line-height: 15px;position:fixed;top:40%;left:28.6%;background-color:rgba(0,0,0,0.8);filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);}
+.prompt_box_1_txt{width: 80%;line-height: 15px;margin: 10px auto;text-align: center;}
+.public1_return_btn_1{display: none;vertical-align: middle;margin-left: 2.66666%;width: 2.4%;}
+/*优惠劵页码*/
+.page_box{width: 15%;border-radius: 4px;position: fixed;bottom: 9.5%;left:43%;line-height: 16px;z-index: 990;font-size:0.5em;text-align:center;background-color:rgba(0,0,0,0.25);filter:progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);color: #FFFFFF;}

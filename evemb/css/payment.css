@@ -1,0 +1,57 @@
+body{background: #f5f5f5;}
+.center_box{width: 100%;}
+.public1-head-box{border-bottom: 1px solid #cccccc;background: #ffffff;position: relative;}
+/*头部返回*/
+.public1_return_btn_1,.public1_return_btn_2,.public1_return_btn_3,.public1_return_btn_4{display: inline-block;vertical-align: middle;margin-left: 2.66666%;width: 2.4%;display: none;}
+/*添加银行卡按钮*/
+.add_btn{position: absolute;top: 13px;right: 2.6666%;font-size: 1.5em;color: #666666;display: none;}
+/*订单金额*/
+.Order_amount{width: 100%;border-bottom: 1px solid #cccccc;line-height: 44px;font-weight: 550;background: #ffffff;}
+.Order_amount_left{float: left;font-size: 1.5em;color: #575757;margin-left: 2.66666%;}
+.Order_amount_right{float: right;color: #e63322;margin-right: 2.66666%;}
+/*支付宝支付*/
+.Alipay_box,.Other_payment_link{width: 100%;display: block;border-bottom: 1px solid #e6e6e6;background: #ffffff;}
+.Alipay_img{width: 10.93333%;display: inline-block;vertical-align: middle;margin: 9px 0 9px 2.6666%;}
+.Alipay_txt_box{display: inline-block;vertical-align: middle;margin-left: 2.66666%;width: 70.33333%;}
+.Alipay_txt_1{font-size: 1.5em;color: #00a5e9;}
+.Alipay_txt_2{font-size: 1.2em;color: #999999;}
+.Alipay_img_1{width: 6.13333%;vertical-align: middle;margin-left: 2.2%;}
+/*其它支付方式*/
+/*.Other_payment{width: 100%;font-size: 1.5em;color: #666666;line-height: 44px;background: #ffffff;margin-top: 40px;border-bottom: 1px solid #e6e6e6;}
+.Other_payment p{margin-left: 2.66666%;}
+.Other_payment_link{width: ;}
+.Alipay_img_2{width: 2.53333%;display: inline-block;vertical-align: middle;margin-left: 6.2%;}*/
+/*立即支付按钮*/
+.Immediate_payment_btn{width: 89.33333%;line-height: 45px;background: #e63322;font-size: 1.6em;color: #ffffff;position: fixed;bottom: 10px;left: 5.33333%;text-align: center;border-radius: 5px;border: none;display: none;}
+/*银行卡支付——无银行卡状态*/
+/*.no_banck_card_1{width: 100%;display: none;}
+.no_banck_card_img{width: 18.93333%;margin: 210px auto 30px;display: block;}
+.no_banck_card_txt{width: 100%;font-size: 1.8em;color: #333333;text-align: center;}*/
+/*新建银行卡*/
+/*.new_banck_card_1{width: 100%;display: none;}
+.banck_ipt_box{width: 100%;background: #ffffff;border-bottom: 1px solid #e6e6e6;line-height: 50px;font-size: 1.4em;}
+.banck_ipt_txt{color: #1a1a1a;margin-left: 2.66666%;display: inline-block;vertical-align: middle;}
+.banck_ipt{width: 53.33333%;display: inline-block;vertical-align: middle;border: none;}
+.bank_link{width: 100%;overflow: hidden;margin: 15px auto 0;font-size: 1.2em;}
+.bank_link_txt{display: block;margin-right: 2.6666%;color: #4d4d4d;float: right;}*/
+/*下一步*/
+/*.Next_step{width: 89.33333%;line-height: 45px;background: #e63322;font-size: 1.6em;color: #ffffff;text-align: center;border-radius: 5px;margin: 87px auto 0;}*/
+/*短信验证*/
+/*.SMS_verification_box{width: 100%;background: #ffffff;overflow: hidden;border-bottom: 1px solid #e6e6e6;display: none;}
+.SMS_Hint{width: 94.66666%;line-height: 20px;font-size: 1.5em;color: #1a1a1a;margin: 23px auto;}
+.SMS_ipt_box{width: 100%;margin-bottom: 22px;}
+.SMS_ipt{width: 58.06882%;border: 2px solid #cccccc;border-radius: 5px;display: inline-block;vertical-align: middle;margin-left: 2.66666%;line-height: 38px;padding-left: 8.06451%;}
+.SMS_img_btn{width: 22.13333%;line-height: 38px;display: inline-block;vertical-align: middle;border: 2px solid #cccccc;border-radius: 5px;margin-left: 2.33333%;text-align: center;background: #e6e6e6;color: #b3b3b3;}*/
+/*确认支付*/
+/*.confirm_btn_1{width: 89.33333%;line-height: 45px;background: #e63322;font-size: 1.6em;color: #ffffff;text-align: center;border-radius: 5px;margin: 23px auto 0;display: none;border: none;}*/
+/*支付结果*/
+/*.Payment_success_btn{width: 100%;background: #ffffff;border-bottom: 1px solid #e6e6e6;display: none;}
+.Payment_center_box{width: 100%;}
+.Payment_center_img{width: 16.53333%;margin: 48px 0 48px 20.4%;display: inline-block;vertical-align: middle;}
+.Payment_center_txt_box{width: 53.33333%;display: inline-block;vertical-align: middle;margin-left: 7.2%;font-size: 1.4em;}
+.Payment_btn_box{width: 80%;margin: 35px auto 15px;}
+.Payment_btn_box a{display: block;border: 1px solid #cccccc;border-radius: 5px;width: 44.66666%;line-height: 29px;text-align: center;font-size: 1.5em;color: #262626;}
+.Payment-left_btn{float: left;}
+.Payment-right_btn{float: right;}*/
+/*提示框*/
+/*.Prompt-box{width: 80%;color: #FFFFFF;padding: 5px;margin: 20px auto 0;font-size: 1.6em;display: none;text-align:center;background-color: rgba(0, 0,0, 0.25);filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);}*/

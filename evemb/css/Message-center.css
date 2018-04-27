@@ -1,0 +1,57 @@
+/*通用样式*/
+*{margin:0px;padding: 0px;list-style: none;text-decoration: none;-webkit-padding-start: 0px;font-family: "微软雅黑";outline:none;}
+body{max-width: 720px;min-width: 320px;width: 100%;margin: 0 auto;_width:expression(document.body.clientWidth > 768 ? "768px" : "auto");background: #ededed;font-size: 62.5%;}
+.ui_loader_default{ display:none}
+.ui_mobile_viewport{ border:none;}
+.ui_page {padding: 0; margin: 0; outline: 0}
+body{background: #f5f5f5 !important;}
+.public1-head-box{background: #ffffff;position: relative;}
+.Set_up_btn_link{display: block;width: 5.6%;position: absolute;top: 14px;right: 2.66666%;}
+.Set_up_btn{width: 100%;}
+/*选项*/
+.option_box{width: 100%;border-top: 1px solid #d6d6d6;}
+.Link_classification_li{width: 100%;line-height: 43px;}
+.Link_classification{width: 100%;overflow: hidden;}
+.Link_classification_img{width: 9.33333%;display: inline-block;vertical-align: middle;margin-left: 2.66666%;}
+.Link_classification_right{width: 83.6%;display: inline-block;vertical-align: middle;border-bottom: 1px solid #d9d9d9;color: #333333;margin-left: 2.66666%;}
+.Link_classification_txt{width: 80%;display: inline-block;vertical-align: middle;}
+.Link_classification_right_img{width: 2.69841%;display: inline-block;vertical-align: middle;margin-left: 12.19047%;}
+.Link_classification_p_1{font-size: 1.6em;color: #333333;line-height: 16px;margin-top: 16px;}
+.Link_classification_p_2{font-size: 1.2em;color: #999999;line-height: 12px;margin-top: 8px;margin-bottom: 9px;}
+/*查看物流*/
+.logistics_box{width: 100%;border-top: 1px solid #d6d6d6;}
+.logistics_img{width: 14.26666%;display: inline-block;vertical-align: middle;border: 1px solid #ededed;margin: 16px 0 15px 2.66666%;}
+.logistics_txt{width: 75%;display: inline-block;vertical-align: middle;margin-left: 4%;}
+.logistics_p_1{font-size: 1.4em;}
+.logistics_p_span_1{color: #333333;}
+.logistics_p_span_2{color: #20b72b;}
+.logistics_p_2{font-size: 1.3em;color: #999999;}
+/*物流状态*/
+.Logistics_status_box{width: 100%;margin: 10px auto 0;background: #ffffff;overflow: hidden;border-bottom: 1px solid #e6e6e6;}
+.Logistics_status_ul{width: 84.93333%;overflow: hidden;margin: 23px auto 0;}
+.Logistics_status_li_1{width: 12.87284%;display: inline-block;vertical-align: middle;}
+.Logistics_status_li_1 img{width: 100%;}
+.Logistics_status_li_2{width: 27.29837%;font-size: 1em;color: #dddddd;display: inline-block;vertical-align: middle;}
+.Logistics_status_ul_1{width: 90.93333%;margin: 10px auto 0;}
+.Logistics_status_li{width: 18.87284%;font-size: 1.3em;text-align: center;color: #999999;display: inline-block;vertical-align: middle;}
+.Logistics_status_li_3{margin-left: 18.92%;margin-right: 19.92%;}
+.Logistics_status_li_color{color: #20B72B;}
+.Logistics_status_ul_2{width: 78.93333%;margin: 23px auto 21px;}
+.Logistics_status_ul2_li_1{width: 6.15835%;display: inline-block;vertical-align: middle;}
+.Logistics_picture{width: 100%;}
+.Logistics_status_ul2_li_2{width: 6.15835%;display: inline-block;vertical-align: middle;}
+.Logistics_Line{width: 37%;border: 1px solid #dedede;display: inline-block;vertical-align: middle;}
+.Logistics_status_li_2_color{color: #20B72B;}
+.Logistics_Line_color{border-color: #20B72B;}
+/*优惠促销*/
+.Preferential_promotion_box{width: 100%;border-top: 1px solid #cccccc;display: none;}
+.Preferential_promotion_li{width: 100%;border-bottom: 1px solid #cccccc;}
+.time{width: 100%;font-size: 1.2em;color: #666666;text-align: center;margin: 14px auto 10px;}
+.Preferential_promotion_center{width: 100%;border-top: 1px solid #d9d9d9;background: #ffffff;}
+.Preferential_promotion_txt{margin-left: 2.66666%;line-height: 44px;font-size: 1.4em;}
+.Preferential_promotion_img{width: 89.33333%;margin: 5px auto 0;border-radius: 5px;display: block;}
+.Preferential_promotion_txt2{width: 89.33333%;font-size: 1.4em;color: #666666;line-height: 15px;margin: 10px auto 0;}
+.View_details_btn{width: 89.33333%;font-size: 1.4em;color: #666666;line-height: 15px;margin: 10px auto 0;display: block;line-height: 35px;border-top: 1px solid #d9d9d9;}
+.View_details_txt{float: left;}
+.View_details_img{width: 2.25352%;float: right;margin: 10px 2.66666% 0 0;}
+.public1-head-box .public1_return_btn_1,.public1-head-box .public1_return_btn_2{display: none;}

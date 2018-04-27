@@ -1,0 +1,20 @@
+.classification1,.classification2{width: 100%;position: relative;border-bottom: 1px solid #e6e6e6;}
+.classification-ul{width: 100%;font-size: 15px;line-height: 40px;overflow: hidden;background: #ffffff;}
+.classification-ul1{width: 100%;font-size: 15px;line-height: 40px;background: #ffffff;border-top: 1px solid #e6e6e6;}
+.classification-ul-li{float:left;padding: 0 6.33333%;}
+.classification-ul-li2{width: 23.86666%;float:left;line-height: 40px;font-size: 30px;margin-left: 9.46666%;font-weight: bold;}
+.classification-ul-li-link{width: 100%;display: block;color: #656565;}
+.classification-ul-li-link-click{color: #e63322;}
+.open-off-btn1{width:11.73333%;position: absolute;right: 0px;top: 0px;border-left: 1px solid #cccccc;background: url(../img/f3rgr.png) 44.95454% 52% no-repeat;background-size: 35.27777%;}
+.open-off-btn2{width:11.73333%;position: absolute;right: 0px;top: 0px;border-left: 1px solid #cccccc;background: url(../img/dded.png) 44.95454% 52% no-repeat;background-size: 35.27777%;}
+.all-classification{width: 100%;line-height: 40px;font-size: 14px;padding-left: 2.66666%;background: #ffffff;color: #666666;}
+/*商品*/
+.goodUl{width: 100%;margin: 0 auto 73px;font-size: 12px;color: #404040;}
+.goodUl li{width: 100%;overflow: hidden;margin-top: 5px;}
+.goodLeftLink{width: 49.33333%;float: left;display: block;border-bottom: 2px solid #d9d9d9;background: #ffffff;}
+.goodRightLink{width: 49.33333%;float: right;display: block;border-bottom: 2px solid #d9d9d9;background: #ffffff;}
+.loadImg{width: 100%;display: block;margin-bottom: 5px;}
+.goodName{width: 91.89189%;margin: 0 auto;font-weight: bold;line-height: 20px;color: #404040;}
+.operationBox{width: 91.89189%;overflow: hidden;margin: 13px auto;font-weight: bold;}
+.Price{float: left;color: #F5184C;}
+.collectionImg{width: 13.37386%;float: right;}

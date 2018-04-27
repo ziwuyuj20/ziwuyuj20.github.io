@@ -1,0 +1,132 @@
+body{background: #f5f5f5;}
+.center_box{width: 100%;}
+/*配送地址*/
+.Delivery_address_box{width: 100%;}
+.Delivery_address_left{width: 92%;display: inline-block;vertical-align: middle;margin-left: 1.66666%;}
+.User_information{width: 100%;font-size: 1.5em;color: #262626;line-height: 38px;font-weight: bold;}
+.User_information_1,.User_information_2{width: 100%;font-size: 1em;color: #262626;line-height: 18px;}
+.address_box{width: 100%;}
+.address_default{width: 9.82608%;display: inline-block;vertical-align: middle;border: 1px solid #e63322;font-size: 1em;text-align: center;line-height: 1.3em;color: #e63322;border-radius: 3px;}
+.address{width: 86.14492%;display: inline-block;vertical-align: middle;font-size: 1.3em;color: #262626;margin-left: 2%;}
+.address_img{width: 2.31884%;display: inline-block;vertical-align: middle;}
+.Settlement_details_box{width: 100%;margin-top: 5px;background: #ffffff;}
+.Shop_name{width: 94.66666%;margin: 0 auto;font-size: 1em;color: #1a1a1a;line-height: 30px;}
+.Settlement_details_div_1{width: 94.66666%;margin: 0 auto;}
+.shop_img{width: 18.30985%;display: inline-block;vertical-align: middle;border-radius: 4px;float: left;}
+.Settlement_details_rght{width: 59.15492%;display: inline-block;vertical-align: middle;float: left;margin-left: 4.64788%;}
+.Specification{width: 100%;font-size: 1em;color: #999999;}
+.goods_quantity_box{width: 35.5%;border: 1px solid #cccccc;font-size: 1em;line-height: 17px;margin-top: 10px;}
+.reduce_btn,.increase_btn{width: 31.35593%;text-align: center;color: #999999;background: #cccccc;float: left;}
+.quantity_ipt{width: 37.28813%;border: none;display: block;text-align: center;background:#ffffff;float: left;}
+.Settlement_details_div{width: 92%;overflow: hidden;margin-bottom: 11px;margin-top: 11px;}
+.Return_goods{float: left;font-size: 1em;color: #8fb3fb;}
+.Return_goods_img{width: 10.55555%;}
+.price_box{width: 16.9014%;float: right;}
+.price_p{font-size: 1.2em;color: #e63322;}
+.price_Number{font-size: 1em;color: #1a1a1a;text-align: right;margin-top: 9px;margin-right: 18%;}
+/*---*/
+.Distribution_box{width: 100%;border-top: 1px solid #e5e5e5;background: #ffffff;}
+.Distribution{width: 94.66666%;margin: 0 auto;overflow: hidden;font-size: 1.2em;line-height: 35px;}
+.Distribution_left{float: left;color: #333333;}
+.Distribution_right{float: right;color: #666666;}
+.Distribution_img{width: 2.25352%;float: right;margin: 12px 0 0 1.69014%;}
+.Service_charge{float: left;color: #666666;}
+.Explain{float: left;color: #666666;width: 79.50704%;line-height: 15px;margin-top: 11px;margin-bottom: 11px;}
+.Total_box{text-align: right;color: #666666;}
+.Total_red{color: #e63322;}
+/*确认订单*/
+.confirm_box{width: 100%;position: fixed;bottom: 0px;background: #ffffff;overflow: hidden;}
+.confirm_left{width: 62.11765%;float: left;border-top: 1px solid #e6e6e6;text-align: right;padding-right: 5.88235%;line-height: 49px;font-size: 1.5em;}
+.confirm_red{color: #e63322;font-weight: bold;}
+.confirm_btn{width: 32%;line-height: 50px;font-size: 1.8em;text-align: center;display: block;float: left;background: #e63322;color: #ffffff;}
+/*价格说明遮罩*/
+.Price_description_out_box{width: 100%;position: absolute;left: 0px;top: 0px;z-index: 999;display: none;background-color: rgba(0, 0,0, 0.25);filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);}
+.Price_description_box{width: 53.6%;position: fixed;top: 35%;left:23.53333%;border-radius: 5px;color: #ffffff;background-color: rgba(0, 0,0, 0.8);filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);}
+.Price_description_tittle{width: 88.30845%;font-size: 1.4em;line-height: 36px;text-align: center;border-bottom: 1px solid #ffffff;margin: 0 auto;}
+.Price_description_txt{width: 88.30845%;margin: 9px auto 0;font-size: 1em;line-height: 16px;}
+.Price_description_box button{width: 88.30845%;margin: 17px auto 20px;background: #f52b00;line-height: 28px;text-align: center;border-radius: 5px;font-size: 1.2em;color: #ffffff;border: none;display: block;}
+/*订单结算*/
+.Order_settlement_box{width: 100%;border-top:1px solid #e5e5e5;display: none;}
+.Order_settlement_ul{width: 94.66666%;margin: 0 auto;}
+.Order_settlement_li{width: 100%;overflow: hidden;margin: 12px auto 0;}
+.Order_settlement_img{width: 5.21126%;display: inline-block;vertical-align: middle;}
+.express_name{display: inline-block;vertical-align: middle;font-size: 1.3em;color: #666666;margin-left: 3.52112%;}
+.freight{display: inline-block;vertical-align: middle;font-size: 1em;color: #e7473a;text-align: right;float: right;margin-top: 1px;}
+.express_btn{width: 100%;border: none;background: #e63322;line-height: 50px;color: #ffffff;text-align: center;font-size: 1.8em;position: fixed;bottom: 0px;}
+/*优惠卷,无优惠卷状态*/
+.Coupon_box_1,.Coupon_box_2{width: 100%;border-top: 1px solid #cccccc;display: none;}
+.Coupon_box_head{width: 100%;background: #ffffff;overflow: hidden;}
+.Coupon_box_head_out{width: 50%;float: left;font-size: 1.4em;line-height: 44px;text-align: center;color: #262626;}
+.Available_Coupon{width: 65.66666%;margin: 0 auto;border-bottom: 2px solid #ffffff;}
+.Unavailable_Coupon{width: 62.66666%%;margin: 0 auto;border-bottom: 2px solid #ffffff;}
+.Coupon_click{border-bottom: 2px solid #e63322;color: #e63322;}
+.coupon-img{width: 18.93333%;margin: 149px auto 0;display: block;}
+.Coupon_box_1_txt{width: 100%;margin: 33px auto 0;font-size: 1.8em;color: #333333;text-align: center;}
+/*可用、不可用优惠券*/
+.Coupon-Popup-ul{width: 93.6%;margin: 0 auto;overflow: hidden;display: none;}
+.Coupon-Popup-li{width: 100%;margin-top: 15px;background: url(../img/kfgghh.png) no-repeat;background-size: 100% 100%;position: relative;}
+.Coupon-Popup-txt{width: 100%;}
+.Coupon-Popup-value-box{width: 19.37321%;border: 1px solid #ffffff;border-radius: 3px;float: left;margin: 23px 0 0 6.4188%;}
+.currency,.value{line-height: 34px;text-align: center;font-size: 18px;color: #ffffff;}
+.currency{background: #ff5e0d;border-top-left-radius: 3px;border-top-right-radius: 3px;}
+.value{background: #ff7733;border-bottom-left-radius: 3px;border-bottom-right-radius: 3px;}
+.Coupon-Popup-describe-box{width: 42.8571%;float: right;font-size: 15px;color: #ffffff;margin: 21px 8.85714% 0 0;}
+.Coupon-Popup-describe{width: 88.33333%;float: left;line-height: 17px;text-align: left;}
+.Coupon-Popup-img{display: block;float: right;width: 9.333333%;margin-top: 4px;}
+.Coupon-Popup-data-box{width: 100%;font-size: 1.2em;color: #ffffff;overflow: hidden;background: #ff5e0d;}
+.Coupon-Popup-data-box p{float: right;margin-right: 8.14285%;line-height: 27px;}
+.Coupon-Popup-li-link{display: block;width: 100%;}
+.style{font-size: 1.2em;}
+.Coupon_Choice{width: 8.73239%;position: absolute;top: -7px;left: -0.1%;}
+.public1_head_link,.Address_edit,.Finish_editing{font-size: 1.5em;color: #666666;position: absolute;top: 13px;right: 2.66666%;display: none;}
+.public1-head-box{position: fixed;top: 0px;width: 100%;border-bottom: 1px solid #cccccc;background: #ffffff;}
+/*支付方式*/
+.Payment_method_box{width: 100%;border-top: 1px solid #cccccc;background: #ffffff;display: none;}
+.Payment_method_ul{width: 100%;}
+.Payment_method_li{width: 100%;border-bottom: 1px solid #e0e0e0;}
+.payment_img{width: 5.06666%;display: inline-block;vertical-align: middle;margin: 11px 5.06666%;}
+.Payer_name{font-size: 1.5em;color: #262626;display: inline-block;vertical-align: middle;}
+.payment_express_btn,.New_address_btn{width: 89.33333%;border: none;background: #e63322;line-height: 50px;color: #ffffff;text-align: center;font-size: 1.8em;position: fixed;bottom: 10px;left: 5.33333%;border-radius: 5px;}
+/*地址*/
+.Address_edit_box{width: 100%;border-top: 1px solid #cccccc;display: none;}
+.Address_edit_ul{width: 100%;background: #ffffff;}
+.Address_edit_li{width: 100%;border-bottom: 1px solid #e6e6e6;overflow: hidden;}
+.Address_edit_div{width: 94.66666%;margin: 15px auto 0;font-size: 1.6em;color: #262626;overflow: hidden;}
+.Address_user_name,.Address_user_name_1,.Address_user_name_2,.Address_user_name_3{float: left;}
+.Phone_number,.Phone_number_1,.Phone_number_2,.Phone_number_3{float: right;}
+.user_Address{width: 94.66666%;margin: 10px auto 15px;line-height: 18px;color: #666666;}
+/*地址操作栏*/
+.operation_box{width: 100%;border-top: 1px solid #e6e6e6;font-size: 1.3em;color: #666666;line-height: 42px;overflow: hidden;display: none;}
+.clone{display: none;}
+.default_btn{width: 4.53333%;display: inline-block;vertical-align: middle;margin-left: 2.66666%;float: left;margin-top: 12px;}
+.operation_txt{margin-left: 3.33333%;float: left;}
+.operation_img{width: 4%;margin-right: 2.4%;float: right;margin-top: 15px;}
+.operation_txt_1{float: right;margin-right: 4%;margin-top: 2px;}
+/*修改地址*/
+.Modify_address_box{width: 100%;background: #ffffff;display: none;}
+.Modify_address_ul{width: 100%;border-top: 1px solid #e6e6e6;}
+.Modify_address_li{width: 100%;border-bottom: 1px solid #e6e6e6;line-height: 50px;font-size: 1.4em;color: #1a1a1a;}
+.Modify_address_left,.Modify_address_left_1,.Modify_address_left_2,.Modify_address_left_3{display: inline-block;margin-left: 2.66666%;}
+.Modify_address_right,.Modify_address_right_1,.Modify_address_right_2,.Modify_address_right_3{display: inline-block;vertical-align: middle;}
+.user_address{width: 55%;line-height: 15px;}
+.Modify_address_img{width: 2.13333%;float: right;margin: 17px 2.66666% 0 0;}
+.Default_address_setting{width: 100%;border-bottom: 1px solid #e6e6e6;}
+.Default_address_setting_left{width: 49.33333%;margin-left: 2.66666%;font-size: 1.2em;color: #b3b3b3;margin-top: 10px;margin-bottom: 10px;display: inline-block;vertical-align: middle;}
+/*保存按钮*/
+.save_btn,.save_new_address{width: 89.33333%;margin: 20px auto 0;background: #e63322;line-height: 40px;color: #ffffff;text-align: center;border-radius: 5px;display: none;}
+/*删除提示框*/
+.Delete_prompt_box{width: 100%;position: absolute;left: 0px;top: 0px;z-index: 999;display:none;background-color: rgba(0, 0,0, 0.25);filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);}
+.Delete_prompt_center{width: 73.33333%;background: #ffffff;border-radius: 5px;position: fixed;top: 30%;left: 13.33333%;color: #262626;}
+.Delete_prompt_txt{width: 100%;font-size: 1.5em;text-align: center;margin: 25px auto;}
+.Delete_prompt_btn_box{width: 100%;border-top: 1px solid #e6e6e6;font-size: 1.5em;overflow: hidden;}
+.Delete_prompt_btn_box p{text-align: center;line-height: 49px;}
+.confirm_deletion,.confirm_deletion_1,.confirm_deletion_2,.confirm_deletion_3,.confirm_deletion_4,.confirm_deletion_5,.confirm_deletion_6,.confirm_deletion_7{width: 50%;border-right: 1px solid #e6e6e6;border-bottom-left-radius: 5px;float: left;}
+.Cancel_delete,.Cancel_delete_1,.Cancel_delete_2,.Cancel_delete_3,.Cancel_delete_4,.Cancel_delete_5,.Cancel_delete_6,.Cancel_delete_7{width: 49%;border-bottom-right-radius: 5px;float: right;}
+.new_address{width: 10.33333%;display: none;vertical-align: middle;font-size: 1em;text-align: center;border: 1px solid #c2c2c2;line-height: 15px;margin-left: 2%;}
+.user_modify_address{width: 70%;line-height: 15px;}
+/*详细地址修改框*/
+.Pop_box,.Pop_box_2,.Pop_box_3,.Pop_box_4,.Pop_box_5,.Pop_box_6,.Pop_box_7{width: 100%;position: absolute;left: 0px;top: 0px;z-index: 999;display: none;background-color: rgba(0, 0,0, 0.25);filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);}
+.new_address_ipt,.new_address_ipt_2,.new_address_ipt_3,.new_address_ipt_4,.new_address_ipt_5,.new_address_ipt_6,.new_address_ipt_7{width: 80%;margin: 30px auto 20px;border: 1px solid #e1e1e1;line-height: 30px;font-size: 1.2em;color: #000000;display: block;}
+/*设置默认按钮*/
+.set_default_btn{width: 14%;display: inline-block;vertical-align: middle;margin-left: 29.33333%;}
+.public1_return_img_1,.public1_return_img_2{width: 100%;display: none;}

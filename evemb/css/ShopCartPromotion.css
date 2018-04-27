@@ -1,0 +1,19 @@
+.openbutton img,.closebutton img{width: 44.11764%;margin: 17px auto;display: block;}
+.classUl{overflow: hidden;position: absolute;left: 0%;}
+.classIco .classIcoLink{color: #F5184C;border-bottom: 2px solid #F5184C;}
+.goodUl{width: 100%;margin: 0 auto 73px;font-size: 12px;color: #404040;}
+.goodUl li{width: 100%;overflow: hidden;margin-top: 5px;}
+.goodLeftLink{width: 49.33333%;float: left;display: block;border-bottom: 2px solid #d9d9d9;background: #ffffff;}
+.goodRightLink{width: 49.33333%;float: right;display: block;border-bottom: 2px solid #d9d9d9;background: #ffffff;}
+.loadImg{width: 100%;display: block;margin-bottom: 5px;}
+.goodName{width: 91.89189%;margin: 0 auto;font-weight: bold;line-height: 20px;color: #404040;font-size: 12px;}
+.operationBox{width: 91.89189%;overflow: hidden;margin: 13px auto;font-weight: bold;}
+.Price{float: left;color: #F5184C;}
+.collectionImg{width: 13.37386%;float: right;}
+.classification-ul-box{width: 100%;overflow: hidden;background: #ffffff;border-bottom: 1px solid #d9d9d9;}
+.classification-li{line-height: 40px;font-size: 1.125em;color: #656565;float: left;padding-left: 6.933333%;padding-right: 6.933333%;}
+.classification-li-color{color: #e63322;}
+.New-date-box{width: 94.66666%;line-height: 35px;background: #ededed;text-align: center;margin: 0 auto;}
+.Clock-img{display: inline-block;vertical-align: middle;width: 3.38028%;}
+.New-date-txt{display: inline-block;vertical-align: middle;}
+.goodUl{margin-bottom: 0px;}

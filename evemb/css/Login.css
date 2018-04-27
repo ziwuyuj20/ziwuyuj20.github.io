@@ -1,0 +1,29 @@
+.login_center_box{width: 89.33333%;margin: 0 auto;}
+.AccountPassword_box_1,.AccountPassword_box_2,.AccountPassword_box_3,.AccountPassword_box_4,.AccountPassword_box_5{width: 100%;display: none;}
+/*输入框样式*/
+.AccountBox{width: 100%;overflow: hidden;border-bottom: 1px solid #cdcdcd;}
+.user_img{width: 5.97014%;display: inline-block;vertical-align: middle;}
+.AccountPassword_input{width: 89.25373%;vertical-align: middle;font-size: 1.6em;color: #cdcdcd;line-height: 44px;border: none;margin-left: 3.014925%;}
+.AccountPassword_input_1{width: 70.25373%;vertical-align: middle;font-size: 1.6em;color: #cdcdcd;line-height: 44px;border: none;margin-left: 3.014925%;}
+/*登录按钮样式*/
+.Account_btn{display: block;width: 100%;text-align: center;line-height: 45px;border: none;background: #e6e6e6;font-size: 1.7em;color: #cdcdcd;border-radius: 6px;margin-top: 30px;}
+/*快速注册,找回密码样式*/
+.register_box{width: 100%;overflow: hidden;font-size: 1.5em;color: #808080;margin-top: 31px;}
+.register{float: left;}
+.RetrievePassword{float: right;}
+/*快速注册样式*/
+.Account_left_Txt{font-size: 1.2em;color: #1a1a1a;float: left;line-height: 44px;margin-right: 3.58208%;}
+.Registration_information_1{width: 59.38805%;font-size: 1.2em;color: #cdcdcd;line-height: 44px;border: none;display: block;float: left;}
+.Verification_Code{float: right;text-align: right;line-height: 44px;font-size: 1.2em;border: none;background: #ffffff;border-left: 1px solid #cccccc;width: 23.4328%;color: #808080;}
+/*注册成功*/
+.Register_status_img{width: 28.95223%;margin: 41px auto 0;display: block;}
+.Register_success_1{font-size: 2em;text-align: center;margin: 17px auto 0;color: #e63322;font-weight: 300;}
+.Register_success_2{font-size: 1.6em;text-align: center;margin: 8px auto 0;color: #e63322;font-weight: 300;}
+.return_center_btn{width: 59.70149%;display: block;font-size: 1.6em;line-height: 45px;color: #ffffff;text-align: center;background: #e63322;border-radius: 5px;margin: 53px auto 0;}
+.delete_btn{width: 4.47761%;vertical-align: middle;display: none;}
+.password_img{width: 6.716417%;position: absolute;left: 90%;top: 16px;}
+.AccountPassword_ipt_add{color: #1a1a1a;}
+.Account_btn_add{background: #e63322;color: #ffffff;}
+.Prompt-box{width: 80%;color: #FFFFFF;padding: 5px;margin: 20px auto 0;font-size: 1.6em;display: none;background-color: rgba(0, 0,0, 0.25);filter: progid:DXImageTransform.Microsoft.gradient(startcolorstr=#7F000000,endcolorstr=#7F000000);}
+.Agreement{width: 80%;font-size: 1.2em;color: #e63322;margin: 20px auto 0;text-align: center;}
+.Agreement a{color: #0FA7FF;}

@@ -1,0 +1,8 @@
+.comment_box{width: 100%;margin: 10px auto 0;border-top: 1px solid #e6e6e6;background: #ffffff;}
+.comment_head{width: 100%;overflow: hidden;border-bottom: 1px solid #e6e6e6;}
+.comment_img{width: 18.26666%;float: left;margin: 10px 0 10px 2.6666%;border: 1px solid #e6e6e6;display: block;}
+.comment_shop_name{width: 72%;float: right;font-size: 1.3em;color: #3e3e3e;display: block;margin: 10px 2.66666% 0 0;font-weight: bold;}
+.comment_txt{width: 94.66666%;height: 75px;margin: 10px auto 0;border: none;font-size: 1.3em;color: #c3c3c3;display: block;resize: none;}
+.Word_limit{width: 94.66666%;text-align: right;margin: 10px auto 0;font-size: 1.1em;color: #bfbfbf;}
+.Evaluation_button{width: 100%;position: fixed;bottom: 0px;border-top: 1px solid #d9d9d9;background: #ffffff;}
+.Evaluation_btn{width: 60%;background: #e63322;border: none;color: #ffffff;text-align: center;line-height: 40px;margin: 10px auto;display: block;}
