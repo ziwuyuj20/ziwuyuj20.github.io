@@ -1,0 +1,12 @@
+//点击付款信息切换
+$(".otk").click(function(){
+	$(this).toggleClass('otk1').siblings().removeClass('otk1');
+})
+$(".otkico1").click(function(){
+	$(".tableNavigationBox").show();
+	$(".pifBox").hide();
+})
+$(".otkico2").click(function(){
+	$(".tableNavigationBox").hide();
+	$(".pifBox").show();
+})

@@ -1,0 +1,45 @@
+$(".downMenuBox div").click(function(){
+    $(this).toggleClass('hover').siblings().removeClass('hover');
+})
+//下拉框滑入滑出效果
+$(".downMenuBox div").click(function(){
+	//收回
+	$(".downMenuBox div").not(this).next(".MenuCenter").slideUp(350);
+	//显示
+	$(this).next(".MenuCenter").slideToggle(350);
+});
+//点击修改按钮改变样式
+$(".modify").click(function(){
+	$(this).css("display","none");
+	$(".table3Box").css("display","block");
+	$(".delectBtn").css("display","block");
+	$(".uploadBox").css("display","block");
+	$(".btnBox").css("display","block");
+	$(".calendar").css("display","block")
+	$(".tabble2CnterLi4").css("display","none");
+})
+//获取服饰内衣、其它资质文本节点，获取输入框
+//点击删除按钮节点
+$(".delectBtn").click(function(){
+	$(this).parent().css("display","none");
+})
+//点击提交审核按钮样式恢复
+$(".btnLeft").click(function(){
+	$(".modify").css("display","block");
+	$(".table3Box").css("display","none");
+	$(".delectBtn").css("display","none");
+	$(".uploadBox").css("display","none");
+	$(".btnBox").css("display","none");
+	$(".calendar").css("display","none")
+	$(".tabble2CnterLi4").css("display","block");
+})
+//点击取消按钮样式恢复
+$(".btnRight").click(function(){
+	$(".modify").css("display","block");
+	$(".table3Box").css("display","none");
+	$(".delectBtn").css("display","none");
+	$(".uploadBox").css("display","none");
+	$(".btnBox").css("display","none");
+	$(".calendar").css("display","none")
+	$(".tabble2CnterLi4").css("display","block");
+})
