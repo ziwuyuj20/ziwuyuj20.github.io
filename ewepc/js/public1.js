@@ -1,0 +1,52 @@
+//生成二维码
+$(".STYPEGOODS,.QRCode").mouseover(function(){
+	$(".QRCode").show();
+	$(".STYPEGOODS").addClass("BGC");
+	$(".Mobile").attr("src","img/Mobile2.png");
+	$(".Arrow1").attr("src","img/gthh.png");
+})
+$(".STYPEGOODS,.QRCode").mouseout(function(){
+	$(".QRCode").hide();
+	$(".STYPEGOODS").removeClass("BGC");
+	$(".Mobile").attr("src","img/Mobile1.png");
+	$(".Arrow1").attr("src","img/efu.png");
+})
+//生成商品分类弹窗
+$(".STYPEGOODS1,.TYPEBOX").mouseover(function(){
+	$(".TYPEBOX").show();
+	$(".STYPEGOODS1").addClass("BGC");
+})
+$(".STYPEGOODS1,.TYPEBOX").mouseout(function(){
+	$(".TYPEBOX").hide();
+	$(".STYPEGOODS1").removeClass("BGC");
+})
+//侧边栏伸出 
+$(".SIDEBARBGC").mouseover(function(){
+	$(this).parent().find(".SIDEBARTXT").show();
+	$(".SIDEBARBGC").removeClass("hoverColor");
+	$(this).addClass("hoverColor");
+	$(".SIDEBARTXT").removeClass("hoverColor");
+	$(this).parent().find(".SIDEBARTXT").addClass("hoverColor");
+})
+$(".SIDEBARTXT").mouseover(function(){
+	$(this).show();
+	$(this).parent().find(".SIDEBARBGC").addClass("hoverColor");
+})
+//侧边栏收起
+$(".SIDEBARBGC,.SIDEBARTXT").mouseout(function(){
+	$(".SIDEBARTXT").hide();
+	$(".SIDEBARBGC").removeClass("hoverColor");
+})
+//店铺收藏
+$(".Bookmark:eq(0)").click(function(){
+	$(this).find("img").attr("src","img/rgtht.png");
+})
+//侧边悬浮栏背景高度
+$(".SIDEBARBGCBOX").css("height",$(document).height());
+//LOGO宽度设定
+var LOGOW = parseInt($(".JQlogo").width());
+if(LOGOW < 1150){
+	$(".JQlogo").removeClass("JQlogoW");
+}else{
+	$(".JQlogo").addClass("JQlogoW");
+}
