@@ -1,0 +1,32 @@
+//查看物流信息
+$(".Link_classification_li").eq(0).on("click",function(){
+	$(".option_box").hide();
+	$(".logistics_box").show();
+	$(".public1_head_txt").text("查看物流");
+	$(".public1_return_btn").eq(0).css("display","none");
+	$(".public1_return_btn_1").css("display","inline-block");
+})
+//返回消息中心
+$(".public1_return_btn_1").on("click",function(){
+	$(".option_box").show();
+	$(".logistics_box").hide();
+	$(".public1_head_txt").text("消息中心");
+	$(".public1_return_btn").eq(0).css("display","inline-block");
+	$(".public1_return_btn_1").css("display","none");
+})
+//查看优惠促销
+$(".Link_classification_li").eq(1).on("click",function(){
+	$(".option_box").hide();
+	$(".Preferential_promotion_box").show();
+	$(".public1_head_txt").text("优惠促销");
+	$(".public1_return_btn").eq(0).css("display","none");
+	$(".public1_return_btn_2").css("display","inline-block");
+})
+//返回消息中心
+$(".public1_return_btn_2").on("click",function(){
+	$(".option_box").show();
+	$(".Preferential_promotion_box").hide();
+	$(".public1_head_txt").text("消息中心");
+	$(".public1_return_btn").eq(0).css("display","inline-block");
+	$(".public1_return_btn_2").css("display","none");
+})
