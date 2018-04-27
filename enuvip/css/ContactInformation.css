@@ -1,0 +1,889 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	-webkit-padding-start: 0px;
+	font-family: "Microsoft YaHei";
+}
+html,body{
+	width: 100%;
+}
+img{
+	border: none;
+}
+input{
+	outline: none;
+}
+.navigationBox{
+	width: 1244px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.navigationLeft{
+	width: 227px;
+	display: block;
+	margin: 18px 0;
+	float: left;
+}
+.navigationRight{
+	width: 430px;
+	margin: 18px 0;
+	float: right;
+	display:inline;
+}
+.up{
+	width: 391px;
+	overflow: hidden;
+	margin-left: 43px;
+}
+.up li{
+	float: left;
+	font-size: 12px;
+	color: #c9c9c9;
+}
+.up li a{
+	display: block;
+	/*width: 100%;*/
+}
+.navigationLi1{
+	width: 108px;
+	background: url(../indexImg/link-mobile.png) no-repeat;
+}
+.navigationLi1 a{
+	display: block;
+	/*width: 100%;*/
+	width: 60px;
+	background-size: 100% 100%;
+	padding-left: 17px;
+	color: #f05b21;
+}
+.navigationLi1 a:hover{
+	text-decoration: underline;
+}
+.navigationLi2{
+	width: 60px;
+}
+.navigationLi2 a{
+	text-align: center;
+	color: #000;
+}
+.navigationLi2 a:hover{
+	text-decoration: underline;
+}
+.navigationLi3{
+	width: 113px;
+}
+.navigationLi3 a{
+    color: #808080;
+    text-align: center;
+}
+.naviogationLi4{
+	width: 36px;
+}
+.naviogationLi5{
+	width: 62px;
+}
+.naviogationLi4 a,.naviogationLi5 a{
+	color: #656565;
+}
+.naviogationLi4 a:hover{
+	text-decoration: underline;
+}
+.naviogationLi5 a:hover{
+	text-decoration: underline;
+}
+.down{
+	width: 416px;
+	margin: 7px 0 -17px 0;
+	overflow: hidden;
+	display: inline-block;
+}
+.option1{
+	width: 104px;
+	float: left;
+}
+.option2{
+	width: 92px;
+	float: left;
+}
+.option3{
+	width: 80px;
+	float: left;
+}
+.option4{
+	width: 92px;
+	float: left;
+}
+.option2,.option3,.option4{
+	margin-left: 16px;
+	display: inline-block;
+}
+.down li a{
+	display: block;
+	width: 100%;
+	overflow: hidden;
+	color: #333;
+}
+.down li a p{
+	width: 38px;
+	height: 38px;
+	border: 1px solid #efefef;
+	border-radius: 50%;
+	float: left;
+}
+.option1 a p{
+    background: url(../indexImg/links-2015.png);
+}
+.option2 a p{
+    background: url(../indexImg/links-2015.png) no-repeat 0 -40px;
+}
+.option3 a p{
+    background: url(../indexImg/links-2015.png) no-repeat 0 -80px;
+}
+.option4 a p{
+    background: url(../indexImg/links-2015.png) no-repeat 0 -120px;
+}
+.down li a span{
+	display: block;
+	float: right;
+	line-height: 40px;
+	font-size: 12px;
+}
+.navigationOption{
+	width: 100%;
+	background: #409ee4;
+}
+.navigationOptionBox{
+	width: 1260px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.navigationOptionBox li{
+	float: left;
+	line-height: 33px;
+	text-align: center;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+}
+.ico1{
+	width: 66px;
+	background: #2f8dcc;
+}
+.ico2{
+	width: 115px;
+}
+.ico3{
+	width: 140px;
+}
+.outBox{
+	width: 100%;
+	background: #f3f3f3;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.centerBox{
+	width: 1260px;
+	margin: 10px auto 0;
+	/*display: inline-block;*/
+	overflow: hidden;
+}
+.centerLeftBox{
+	width: 200px;
+	float: left;
+}
+.menuBox{
+	width: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+	background: #fff;
+}
+.menuLeft{
+	width: 90px;
+	overflow: hidden;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.menuLeft p{
+	float: left;
+	width: 17px;
+	height: 16px;
+	background: url(../indexImg/icon-left.png) no-repeat;
+}
+.menuLeft span{
+	float: right;
+	display: block;
+	font-size: 16px;
+	line-height: 14px;
+	overflow: hidden;
+	color: #333;
+}
+.menuRight{
+	width: 12px;
+	height: 12px;
+	float: right;
+	background: url(../indexImg/icon-left.png) no-repeat -50px 0;
+	cursor: pointer;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+.menuTxt{
+	display: block;
+	width: 200px;
+	margin-top: 37px;
+	line-height: 50px;
+	text-align: center;
+	color: #333;
+	font-size: 12px;
+}
+.downMenuBox{
+	width: 200px;
+	margin-top: 10px;
+	background: #fff;
+	overflow: hidden;
+}
+.myShop,.cm,.om,.promotion,.ar,.myDistribution,.ass,.sm,.am,.vas,.mm{
+	margin: 0 auto;
+	width: 136px;
+	font-size: 14px;
+	padding-left: 22px;
+	color: #333;
+	margin-top: 15px;
+	background: url(../indexImg/icon-left.png) no-repeat 0 -22px;
+	line-height: 28px;
+	cursor: pointer;
+}
+.downMenuBox .hover{
+	background: url(../indexImg/icon-left.png) no-repeat 0 -50px;
+	color: #3b98e2;
+
+}
+.end{
+	width: 136px;
+	height: 15px;
+}
+.MenuCenter{
+	width: 160px;
+	margin: 0 auto;
+	overflow: hidden;
+	display: none;
+}
+.MenuCenter li{
+	width: 160px;
+	height: 25px;
+	line-height: 25px;
+	font-size: 12px;
+	cursor: pointer;
+	padding-left: 40px;
+	margin-top: 10px;
+}
+.shopManagement{
+	background: #f3f3f3;
+}
+.newAddLink {
+    color: #48a7e7 !important;
+}
+.MenuCenter li a{
+	color: #333333;
+}
+.MenuCenter li:hover{
+	background: #f3f3f3;
+}
+.MenuCenter a li:hover{
+	color: #48a7e7;
+}
+#MenuCenter {
+    display: block;
+}
+.centerRinghtBox{
+	width: 1050px;
+	float: right;
+}
+.centerRinghtHead{
+	width: 1050px;
+	height: 34px;
+	background: #fff;
+	font-size: 12px;
+	line-height: 34px;
+	color: #666;
+	padding-left: 15px;
+}
+.headLeft{
+	width: 500px;
+}
+.headLink1,.headLink2{
+	color: #666;
+}
+.headLink1:hover,.headLink2:hover{
+	color: #48a7e7;
+}
+.endLocation{
+	color: #999999;
+}
+.centerRightOut{
+	width: 1050px;
+	margin: 1px auto 0;
+	background: #fff;
+	overflow: hidden;
+	position: relative;
+}
+.cnterRinghtCenter{
+	width: 1010px;
+	margin: 28px auto 10px;
+	border-top: 2px solid #7c7c7e;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+}
+.navigationRinghtBox{
+	width: 1008px;
+	height: 36px;
+	border-bottom: 1px solid #dedede;
+}
+.cnterRinghtNavigation{
+	width: 1008px;
+	height: 37px;
+	overflow: hidden;
+	border-bottom: 1px solid #dedede;
+}
+.cnterRinghtNavigation li{
+	font-size: 16px;
+	text-align: center;
+	float: left;
+}
+.cnterRinghtNavigation a{
+	color: #333333;
+}
+.cnterRinghtNavigation .merchantInformation a:hover{
+	border-bottom: 1px solid #3690df;
+}
+.cnterRinghtNavigation a:hover{
+	border-bottom: 1px solid #333333;
+}
+.merchantInformation{
+	width: 94px;
+	height: 39px;
+	line-height: 41px;
+	text-align: center;
+	border-top: 4px solid #48a7e7;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	background: #fff;
+	position: absolute;
+	left: 327px;
+	top: 25px;
+}
+.merchantInformation a{
+	color: #3690df;
+}
+.Qualification{
+	width: 94px;
+	height: 36px;
+	line-height: 39px;
+	margin-left: 26px;
+}.bq{
+	width: 94px;
+	height: 36px;
+	line-height: 39px;
+}
+.informationBox{
+	width: 1010px;
+}
+.emergencyContact{
+	width: 1010px;
+	border-bottom: 1px dashed #c4c4c4;
+}
+.emergencyContact1{
+	width: 1010px;
+}
+.tiitleBox1{
+	margin: 27px 0 0 20px;
+	width: 175px;
+	overflow: hidden;
+}
+.tiitleBox2{
+	margin: 27px 0 0 20px;
+	width: 145px;
+	overflow: hidden;
+}
+.tiitleBox1 h3,.tiitleBox2 h3{
+	width: 104px;
+	font-size: 14px;
+	float: left;
+}
+.tittleBgc,.chargeHeadBtn,.operateHeadBtn,.ustomerHeadBtn,.financeHeadBtn,.technologyHeadBtn{
+	width: 41px;
+    height: 15px;
+    float: right;
+    display: block;
+    font-size: 12px;
+    color: #48a7e7;
+    overflow: hidden;
+}
+.tittleBgc p,.chargeHeadBtn p,.operateHeadBtn p,.ustomerHeadBtn p,.financeHeadBtn p,.technologyHeadBtn p{
+    width: 13px;
+    height: 13px;
+    background: url(../indexImg/btn-modify.png) no-repeat;
+    float: left;
+}
+.tittleBgc div{
+	float: right;
+    line-height: 12px;
+}
+#ecBox,#disecBox,#disChargeBox{
+	width: 1010px;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.ecLeft{
+	width: 350px;
+	float: left;
+	overflow: hidden;
+}
+.ecLeftBoxL{
+	width: 150px;
+	float: left;
+	font-size: 12px;
+	text-align: right;
+}
+.ecLeftBoxR{
+	width: 150px;
+	float: left;
+	font-size: 12px;
+	text-align: left;
+}
+.ecLeftBoxL li,.ecLeftBoxR li{
+	margin-top: 30px;
+	color: #666666;
+}
+.ecRight{
+	width: 546px;
+	float: left;
+	overflow: hidden;
+}
+.ecRightL,.ecRightR,.ecRightR1,.ecRightR2{
+	width: 273px;
+	float: left;
+	font-size: 12px;
+	color: #666666;
+	margin-top: 30px;
+}
+.ecRightL{
+	text-align: right;
+}
+.ecRightR,.ecRightR1,.ecRightR2{
+	text-align: left;
+}
+.footer{
+	width: 100%;
+	height: 220px;
+	background: #f3f3f3;
+	overflow: hidden;
+}
+.footerNavigation{
+	width: 790px;
+	overflow: hidden;
+	font-size: 12px;
+	margin: 23px auto 0;
+}
+.footerNavigation li,.footerIco{
+	width: 70px;
+	float: left;
+	text-align: center;
+	line-height: 12px;
+}
+.footerNavigation a{
+	color: #666; 
+}
+.footerIco{
+	border-left: 1px solid #666;
+}
+#footerIco1{
+	width: 80px;
+	float: left;
+	text-align: center;
+	line-height: 10px;
+	height: 13px;
+	width: 80px;border-left: 1px solid #666;
+}
+.footerNavigation a:hover{
+	color: #e4393c;
+	text-decoration: underline;
+}
+.footerTxt1{
+	text-align: center;
+	margin-top: 16px;
+	font-size: 12px;
+	color: #666;
+}
+.footerTxt2{
+	text-align: center;
+	font-size: 12px;
+	color: #666;
+	padding-top: 4px;
+}
+.footerTxt2 a{
+	color: #666;
+	line-height: 13px;
+}
+.footerTxt2 a:hover{
+	color: #e4393c;
+	text-decoration: underline;
+}
+.footerImgBox{
+	width: 469px;
+	margin: 13px auto 0;
+	overflow: hidden;
+}
+.footerImg1,.footerImg2{
+	float: left;
+}
+.footerImg2{
+	padding-left: 10px;
+}
+.footerImg3{
+	float: right;
+}
+.start{
+	color: #cc0087;
+}
+.name1,.name2,.sellNumber,.sellPhoneNum,.sellPhoneNum1,.sellNumber2,.telebone1,.responsibleIpt,.emailIpt,.landlineIpt,.responCellNum,.responQQIpt,.operateNameIpt,.operateEmailIpt,.operateSellNumIpt,.operateQQNumIpt,.operateLandLineIpt,.ServiceManNameIpt,.serviceManEmaiIpt,.serviceManLanlineIpt,.serviceMansellNumberIpt,.serviceManQQIpt,.financeManNameIpt,.financeManEmaiIpt,.financeManLanlineIpt,.financeMansellNumberIpt,.financeManLanlineIpt,.financeMansellNumberIpt,.financeManQQIpt,.technologyNameIpt,.technologyEmaiIpt,.technologyLanlineIpt,.technologysellNumberIpt,.technologyManQQIpt{
+	width: 190px;
+	height: 26px;
+	border: 1px solid #d8d8d8;
+	padding-left: 5px;
+	line-height: 26px;
+	color: #333;
+	font-size: 12px;
+}
+#nameLi1{
+	margin-top: 25px;
+}
+#cellNumLi{
+	margin-top: 17px;
+}
+.btnBox{
+	width: 112px;
+	height: 30px;
+}
+.btnLeft1,.btnLeft2{
+	width: 52px;
+	height: 28px;
+	background: #48a7e7;
+	text-align: center;
+	line-height: 28px;
+	border-radius: 5px;
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+}
+.btnRight1,.btnRight2{
+	width: 52px;
+	height: 28px;
+	border: 1px solid #c7c7c7;
+	text-align: center;
+	line-height: 28px;
+	border-radius: 5px;
+	color: #333333;
+	display: inline-block;
+	font-size: 12px;
+}
+.disecRightR{
+	margin-top: 25px;
+}
+#disecBox{
+	display: none;
+}
+#name2Li{
+	margin-top: 24px;
+}
+#sellNumber2Li,#telebone1Li{
+	margin-top: 18px;
+}
+.ecRightR1{
+	margin-top: 30px;
+}
+.ecRightR1{
+	text-align: left;
+}
+.ecRightR2{
+	margin-top: 24px;
+}
+.ecRightR2{
+	margin-top: 30px;
+}
+.ecRightRIpt{
+	margin-top: 24px;
+}
+.ecRightR3{
+	margin-top: 26px;
+}
+#disResponsi{
+	width: 1010px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: none;
+}
+#responsibleName{
+	margin-top: 25px;
+}
+#emailNum{
+	margin-top: 19px;
+}
+#landline{
+	margin-top: 18px;
+}
+#landlineBTn{
+	width: 112px;
+	height: 30px;
+}
+.landlineLeftBTn{
+	display: inline-block;
+	width: 52px;
+	height: 28px;
+	background: #48a7e7;
+	color: white;
+	line-height: 28px;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 5px;
+}
+.landlineRightBTn{
+	display: inline-block;
+	width: 54px;
+	height: 28px;
+	border: 1px solid #c7c7c7;
+	color: #333;
+	line-height: 28px;
+	font-size: 12px;
+	text-align: center;
+	border-radius: 5px;
+}
+#ResponsibleBox,#operateBox,#ustomerBox,#financeBox,#technologyBox{
+	width: 1010px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+#responCellDiv{
+	margin-top: 24px;
+}
+.responQQnum{
+	margin-top: 25px;
+}
+.responQQDiv{
+	width: 273px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 30px;
+    text-align: right;
+}
+.responCellDiv{
+	width: 273px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 28px;
+    text-align: right;
+}
+.QQnum{
+	color: #76547e;
+	font-size: 12px;
+	margin-top: 30px;
+}
+#disOperateBox{
+	width: 1010px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: none;
+}
+#operateNameLi{
+	margin-top: 25px;
+}
+#operateEmailLi{
+	margin-top: 19px;
+}
+#operateLandLineTxt{
+	margin-top: 17px;
+}
+.operateSellNumDiv{
+	margin-top: 24px;
+}
+.operateQQ{
+	width: 273px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 24px;
+    text-align: right;
+}
+.operateQQNumDiv{
+	width: 273px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 18px;
+    text-align: left;
+}
+#operateLandLineLiTxt{
+	margin-top: 30px;
+}
+.operateQQDivTxt{
+	font-size: 12px;
+    color: #666666;
+    margin-top: 30px;
+    float: left;
+}
+#operateBtnBox{
+	width: 112px;
+    height: 30px;
+}
+.operateLeftBtn{
+	display: inline-block;
+    width: 52px;
+    height: 28px;
+    background: #48a7e7;
+    color: white;
+    line-height: 28px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+.operateLRightBtn{
+	display: inline-block;
+    width: 54px;
+    height: 28px;
+    border: 1px solid #c7c7c7;
+    color: #333;
+    line-height: 28px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+.oldName,.oldNumber,.ecRightR1,.responsibleName,.responsibleEmail,.landline,.ecRightR2,.operateNameLiTxt,.operateEmailLiTxt,#operateLandLineLiTxt,.ecRightR,.operateQQDivTxt{
+	height: 16px;
+}
+.operateNumberDiv{
+	width: 273px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 30px;
+    text-align: left;
+    height: 16px;
+}
+#disServiceBox{
+	width: 1010px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: none;
+}
+#ServiceManNameLi{
+	margin-top: 25px;
+}
+#serviceManEmaiLi{
+	margin-top: 17px;
+}
+#serviceManLanlineLi{
+	margin-top: 20px;
+}
+.serviceMansellNumberDiv{
+	margin-top: 25px;
+}
+.serviceManQQDiv{
+	width: 273px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 21px;
+    text-align: right;
+}
+.serviceManQQIptDiv{
+	margin-top: 16px;
+}
+#serviceBtnBox,#financeBtnBox,.technologyBtnBox{
+	width: 112px;
+    height: 30px;
+}
+.serviceLeftBtn,.financeLeftBtn,.technologyLeftBtn{
+	display: inline-block;
+    width: 52px;
+    height: 28px;
+    background: #48a7e7;
+    color: white;
+    line-height: 28px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+.serviceLRightBtn,.financeLRightBtn,.technologyRightBtn{
+	display: inline-block;
+    width: 54px;
+    height: 28px;
+    border: 1px solid #c7c7c7;
+    color: #333;
+    line-height: 28px;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+.diaServiceManName,.diaServiceManEmai,.diaServiceManLandline{
+	height: 16px;
+}
+.diaServiceManSellNum{
+	width: 273px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 30px;
+    text-align: left;
+    height: 16px;
+}
+.diaServiceManQQ{
+	width: 273px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 30px;
+    text-align: left;
+    height: 16px;
+}
+#disFinanceBox{
+	width: 1010px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: none;
+}
+.disFinanceName,.disFinanceEmail,.disFinanceLanline,.disFinanceSellNumber,.disFinanceQQ{
+	height: 16px;
+}
+.disFinanceSellNumber,.disFinanceQQ{
+	width: 273px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 30px;
+    text-align: left;
+    height: 16px;
+}
+#disTechnologyBox{
+	width: 1010px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: none;
+}
+.disTechnologyName,.disTechnologyEmail,.disTechnologyLandline,.disTechnologyQQ{
+	height: 16px;
+}
+.disTechnologySellNumber,.disTechnologyQQ{
+	width: 273px;
+    float: left;
+    font-size: 12px;
+    color: #666666;
+    margin-top: 30px;
+}
+.navigationOptionBox li a {
+    color: #fff;
+}

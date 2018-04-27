@@ -1,0 +1,310 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: "微软雅黑";
+	list-style: none;
+	text-decoration: none;
+}
+.outBox{
+	width: 980px;
+	margin: 0 auto;
+}
+.state{
+	margin: 10px auto 0px;
+	width: 978px;
+	border: 1px solid #eed97c;
+	background: #fffceb;
+}
+.orderNumBox{
+	width: 968px;
+	height: 33px;
+	margin: 0 auto;
+	border-bottom: 1px dashed #eed97c;
+	font-size: 12px;
+	line-height: 33px;
+	font-weight: bold;
+}
+.nowState{
+	color: #12a000;
+}
+.explain{
+	width: 100%;
+	height: 38px;
+	line-height: 38px;
+	font-size: 12px;
+	padding-left: 13px;
+}
+.sopBox{
+	width: 550px;
+	margin: 30px auto 0;
+	overflow: hidden;
+}
+.sopBox li{
+	margin-left: 7px;
+	height: 12px;
+	float: left;
+}
+.sopBox .sopIco1{
+	margin-left: 0px;
+	width: 12px;
+	background: url(../indexImg/bg_state.jpg) -151px -1px no-repeat;
+}
+.sopIco2{
+	width: 150px;
+	background: url(../indexImg/bg_state.jpg) 0px -21px no-repeat;
+}
+.sopIco3,.sopIco5,.sopIco7{
+	width: 12px;
+	background: url(../indexImg/bg_state.jpg) -151px -41px no-repeat;
+}
+.sopIco4,.sopIco6{
+	width: 150px;
+	background: url(../indexImg/bg_state.jpg) 0px -41px no-repeat;
+}
+.sopOutBox{
+	margin: 0 auto;
+	width: 720px;
+	font-size: 12px;
+}
+.sopTxtBox{
+	width: 177px;
+	float: left;
+}
+.sopTxt{
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	color: #333333;
+}
+.timeTxt{
+	color: #999999;
+	text-align: center;
+	line-height: 20px;
+	padding: 0px 50px;
+}
+.tableBox{
+	margin: 30px auto 0;
+	width: 980px;
+	border: 1px solid #eed97c;
+}
+.tableHeadBox{
+	width: 978px;
+	height: 30px;
+	border-bottom: 1px solid #eed97c;
+	font-size: 12px;
+	line-height: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+	background: #fffceb;
+}
+.otk{
+	width: 76px;
+	height: 30px;
+	border-right: 1px solid #eed97c;
+	float: left;
+	color: #999999;
+	cursor: pointer;
+}
+.otk1{
+	border-bottom: 1px solid #fff;
+	background: #fff;
+	color: #333;
+}
+.mobileBox{
+	width: 824px;
+	float: left;
+	height: 30px;
+}
+.mobileLink{
+	color: #005aa0;
+}
+.mobileLink:hover{
+	text-decoration: underline;
+}
+.tableNavigationBox{
+	margin: 0 auto;
+	width: 952px;
+}
+.tableNavigation{
+	margin: 0 auto;
+	width: 952px;
+	height: 26px;
+	border-bottom: 1px solid #dbdbdb;
+	font-size: 12px;
+	color: #50545b;
+	font-weight: bold;
+}
+.mjUl{
+	width: 952px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #50545b;
+	line-height: 12px;
+}
+.mjIco{
+	width: 100%;
+	height: 12px;
+	margin-top: 9px;
+}
+.mjTime{
+	width: 140px;
+	height: 12px;
+	float: left;
+}
+.mjinformation{
+	width: 476px;
+	margin-left: 3px;
+	float: left;
+}
+.mjOperator{
+	width: 300px;
+	float: left;
+	margin-left: 3px;
+}
+.modeBox{
+	margin-top: 20px;
+	margin-bottom: 10px;
+	width: 200px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	color: #50545b;
+}
+.oifTableBox{
+	margin: 10px auto 0;
+	width: 980px;
+	border: 1px solid #dadada;
+	background: #ededed;
+}
+.oifTableHead{
+	width: 85px;
+	height: 30px;
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 30px;
+}
+.oifTableCenterOutBox{
+	width: 968px;
+	margin: 0 auto;
+	background: #fff;
+	overflow: hidden;
+}
+.consigneeUl{
+	margin: 10px auto;
+	width: 952px;
+	border-bottom: 1px solid #ededed;
+	font-size: 12px;
+}
+.consigneeUl li{
+	margin-top: 10px;
+	width: 100%;
+	line-height: 12px;
+	height: 12px;
+}
+.consigneeTxt,.CommodityList{
+    font-weight: bold;
+}
+.clickOption{
+	color: #222222;
+}
+.clickOption:hover{
+	text-decoration: underline;
+}
+.CommodityList{
+	font-size: 12px;
+	padding-left: 9px;
+	margin-bottom: 6px;
+}
+.tabnleUlHead{
+	width: 947px;
+	margin: 6px auto 0;
+	border: 1px solid #ededed;
+	background: #f0f0f0;
+}
+.tabnleUlHead li{
+	height: 28px;
+	line-height: 28px;
+	text-align: center;
+	font-size: 12px;
+}
+.commodityNumLi{
+	width: 84px;
+	float: left;
+}
+.commodityNameLi{
+	width: 359px;
+	float: left;
+}
+.table1{
+	border: 1px solid #ededed;
+	border-top: none;
+	font-size: 12px;
+	text-align: center;
+	margin: 0 auto;
+	margin-bottom: 16px;
+}
+.table1 th{
+	padding: 5px;
+    background: #F0F0F0;
+    border-top: 1px solid #DEDEDE;
+    border-bottom: 1px solid #DEDEDE;
+    border-left: 1px solid #F0F0F0;
+    font-weight: normal;
+}
+.table1 td{
+	border-right: 1px solid #ededed;
+	padding: 5px;
+    background: #fff;
+    text-align: center;
+    word-wrap: break-word;
+}
+.cpUl{
+	margin-top: 10px;
+	width: 236px;
+	float: right;
+	font-size: 12px;
+	color: #333333;
+	border-bottom: 1px solid #cccccc;
+}
+.cpLiTxt{
+	width: 86px;
+	line-height: 20px;
+	float: left;
+	text-align: right;
+}
+.cpLiMoney1{
+	width: 87px;
+	line-height: 20px;
+	float: left;
+}
+.opaBox{
+	width: 235px;
+	height: 41px;
+	font-size: 20px;
+	line-height: 41px;
+	font-weight: bold;
+	text-align: center;
+	margin-left: 715px;
+}
+.afmTxt{
+	color: #ff0000;
+}
+.pifBox{
+	margin: 0 auto;
+    width: 952px;
+    color: #50545b;
+    display: none;
+}
+.pifUl1{
+	width: 140px;
+	float: left;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+.pifMonyUl{
+	width: 120px;
+	font-size: 12px;
+	float: left;
+	margin-left: 165px;
+}

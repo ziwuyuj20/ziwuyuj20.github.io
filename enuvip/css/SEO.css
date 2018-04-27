@@ -1,0 +1,24 @@
+*{margin: 0px;padding: 0px;font-family: "微软雅黑";text-decoration: none;list-style: none;outline: none;}
+input{outline: none;padding-left: 3px;}
+img{border: none;}
+.position{width: 980px;line-height: 40px;font-size: 12px;background: #f5f5f5;border: 1px solid #e0e0e0;margin: 24px auto 0;}
+.position a{color: #333333;}
+.center{width: 980px;border: 1px solid #e0e0e0;background: #ffffff;margin: 15px auto 20px;}
+.centerHead{width: 935px;margin: 0 auto;border-bottom: 1px solid #f5f5f5;line-height: 38px;font-size: 15px;color: #333333;padding-left: 5px;overflow: hidden;}
+.btnBox{width: 152px;height: 25px;overflow: hidden;font-size: 12px;margin: 50px 0 20px 122px;}
+.btnBox a{width: 54px;height: 23px;border: 1px solid #999999;font-size: 12px;background: #f2f2f2;color: #0d0d0d;line-height: 23px;text-align: center;display: block;}
+.SubmitBtn{float: left;}
+.ResetBtn{float: right;}
+.centerHead p{line-height: 38px;padding-left: 6px;padding-right: 6px;border-bottom: 1px solid #f5f5f5;float: left;z-index: 10;color: #999999;cursor: pointer;}
+.centerHead .click{color: #0086d9;border-bottom: 1px solid #0086d9;}
+.seoBox{width: 100%;font-size: 12px;color: #0d0d0d;overflow: hidden;line-height: 22px;margin-top: 10px;display: none;}
+.seoIco{width: 100%;margin-top: 20px;overflow: hidden;}
+.seoIco p{float: left;}
+.leftSeo{width: 124px;font-weight: bold;text-align: right;}
+.seoIpt{width: 155px;height: 20px;border: 1px solid #a9a9a9;line-height: 20px;padding-left: 3px;}
+.seoText{width: 447px;height: 148px;border: 1px solid #a9a9a9;padding: 5px;}
+.center .seoBlock{display: block;}
+
+.poslink{width: 982px;height: 42px;background: #c6c6ec;margin: 10px auto;overflow: hidden;}
+.poslink a{display: block;float: left;line-height: 42px;padding: 0 10px;color: #333333;font-size: 12px;font-weight: 15;}
+.poslink a:hover{background: #2525ec;color: #fff;}
