@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>系统设置-网站LOGO</title>
+	<link rel="stylesheet" href="css/websiteLOGO.css">
+</head>
+<body>
+	<p class="position">
+        <a href="homePage.html" style="margin-left: 15px;">首页</a>
+        <span>></span>
+        <a href="02系统设置-网站LOGO.html">网站LOGO</a>
+    </p>
+    <div class="poslink">
+        <a href="01系统设置-基本设置.html">基本设置</a>
+        <a href="02系统设置-网站LOGO.html">网站LOGO</a>
+        <a href="03系统设置-SEO设置.html">SEO设置</a>
+    </div>
+    <div class="center">
+        <p class="centerHead">网站LOGO</p>
+        <ul class="centerBox">
+            <li>
+                <p class="headIco">整站LOGO</p>
+                <form method="post" enctype="multipart/form-data" class="form">
+                    <img src="img/Original.png" alt="" class="icoImg">
+                    <input type="file" name="files"/ class="btn1">
+                    <p>上传LOGO</p>
+                </form>
+            </li>
+            <li>
+                <p class="headIco">个人会员中心LOGO</p>
+                <form method="post" enctype="multipart/form-data" class="form">
+                    <img src="img/Original.png" alt="" class="icoImg">
+                    <input type="file" name="files"/ class="btn1">
+                    <p>上传LOGO</p>
+                </form>
+            </li>
+            <li>
+                <p class="headIco">买家会员中心LOGO</p>
+                <form method="post" enctype="multipart/form-data" class="form">
+                    <img src="img/Original.png" alt="" class="icoImg">
+                    <input type="file" name="files"/ class="btn1">
+                    <p>上传LOGO</p>
+                </form>
+            </li>
+        </ul>
+        <ul class="centerBox">
+            <li>
+                <p class="headIco">手机端LOGO</p>
+                <form method="post" enctype="multipart/form-data" class="form">
+                    <img src="img/Original.png" alt="" class="icoImg">
+                    <input type="file" name="files"/ class="btn1">
+                    <p>上传LOGO</p>
+                </form>
+            </li>
+            <li>
+                <p class="headIco">WAP二维码</p>
+                <form method="post" enctype="multipart/form-data" class="form">
+                    <img src="img/Original.png" alt="" class="icoImg">
+                    <input type="file" name="files"/ class="btn1">
+                    <p>上传二维码</p>
+                </form>
+            </li>
+            <li>
+                <p class="headIco">微信二维码</p>
+                <form method="post" enctype="multipart/form-data" class="form">
+                    <img src="img/Original.png" alt="" class="icoImg">
+                    <input type="file" name="files"/ class="btn1">
+                    <p>上传二维码</p>
+                </form>
+            </li>
+        </ul>
+        <div class="btnBox">
+            <a href="javascript:void(0);" class="SubmitBtn">提交</a>
+            <a href="javascript:void(0);" class="ResetBtn">重置</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+    <script>
+        //重置
+        $(".ResetBtn").click(function(){
+            $(".icoImg").attr("src","img/Original.png");
+        })
+    </script>
+</body>
+</html>
