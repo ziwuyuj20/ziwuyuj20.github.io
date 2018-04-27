@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>巨千客服</title>
+		<link rel="stylesheet" href="css/user-public1.css" />
+		<link rel="stylesheet" href="css/Customer-service.css" />
+		<!--头部公共部分-->
+		<link rel="stylesheet" href="css/my-order-head.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div class="Collection_head_box">
+			<a href="javascript:void(0);" class="return_btn">
+				<img src="img/vftgbtb.png" alt="" />
+			</a>
+			<div class="Head_navigation">
+				<p class="Head_navigation_right">巨千客服</p>
+			</div>
+			<img src="img/degusd.png" class="Link_img1" name="0" alt="" />
+		</div>
+		<!--头部下拉框-->
+		<div class="list_box1">
+			<div class="list_div1">
+				<a href="index.html" class="list_a3">首页</a>
+				<a href="javascript:void(0);" class="list_a3 serch_btn1">搜索</a>
+			</div>
+		</div>
+		<!--头部搜索框-->
+		<div class="serch_box">
+			<div class="serch_div1">
+				<input type="text" class="serch_ipt1" />
+				<img src="img/fergev.png" class="serch_img1" alt="" />
+			</div>
+		</div>
+		<div class="head"></div>
+		<ul class="center_ul">
+			<li class="center_li">
+				<p class="center_li_left">客服热线</p>
+				<p class="center_li_right">020 2809 8705</p>
+			</li>
+			<li class="center_li">
+				<a href="javascript:void(0);">
+					<p class="center_li_left">购买须知</p>
+				    <img src="img/tihggj.png" class="center_li_img" alt="" />
+				</a>
+			</li>
+			<li class="center_li">
+				<a href="javascript:void(0);">
+					<p class="center_li_left">售后服务</p>
+				    <img src="img/tihggj.png" class="center_li_img" alt="" />
+				</a>
+			</li>
+		</ul>
+		<!--遮罩-->
+		<div class="Delete_prompt_box">
+			<div class="Delete_prompt_center">
+				<p class="Delete_prompt_txt">你确定要删除该地址？</p>
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion">取消</p>
+				    <p class="Cancel_delete">呼叫</p>
+			    </div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+		<script type="text/javascript" src="js/my-order-head.js"></script>
+		<script>
+		    var windowH = $(document).height();
+		    $(".Delete_prompt_box").css("height",windowH);
+			$(".center_li").eq(0).on("click",function(){
+				var txt = $(".center_li_right").text();
+				$(".Delete_prompt_txt").text(txt);
+				$(".Delete_prompt_box").show();
+			})
+			//取消呼叫
+			$(".confirm_deletion").on("click",function(){
+				$(".Delete_prompt_box").hide();
+			})
+			$(".return_btn").on("click",function(){
+				history.go(-1);
+			})
+		</script>
+	</body>
+</html>

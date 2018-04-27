@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>登录/注册</title>
+		<link rel="stylesheet" href="css/user-public1.css" />
+		<link rel="stylesheet" href="css/Login.css" />
+	</head>
+	<body>
+        <!--头部-->
+		<div class="public1-head-box">
+			<a href="javascript:void(0);" rel="external" class="public1_return_btn">
+				<img src="img/vftgbtb.png" alt="" class="public1_return_img" />
+			</a>
+			<p class="public1_head_txt">登录</p>
+		</div>
+		<div class="login_center_box">
+			<!--登录部分-->
+            <!--账号密码输入框-->
+            <div class="AccountPassword_box_1 AccountPassword_box" style="display: block;">
+            	<form action="" method="" data_ajax="false" target="rfFrame">
+            		<div class="AccountBox">
+            			<img src="img/user.png" alt="" class="user_img" />
+            			<input type="text" placeholder="请输入账号" class="AccountPassword_input AccountPassword_ipt Account_input_1" />
+            		</div>
+            		<div class="AccountBox" style="position: relative;">
+            			<img src="img/password.png" alt="" class="user_img" />
+            			<input type="password" placeholder="请输密码" class="AccountPassword_input_1 AccountPassword_ipt Password_input_1" />
+            			<img src="img/delete.png" alt="" class="delete_btn" />
+            			<img src="img/vhyuju.png" alt="" name="0" class="password_img" />
+            		</div>
+            		<!--登录按钮/-->
+            	    <input type="submit" value="登录" disabled="false" class="Account_btn" />
+            	    <iframe id="rfFrame" name="rfFrame" src="about:blank" style="display:none;"></iframe> 
+            	</form>
+            </div>
+            <!--快速注册部分-->
+            <div class="AccountPassword_box_2 AccountPassword_box">
+            	<form action="" method="" data_ajax="false" target="rfFrame">
+            		<div class="AccountBox">
+            			<p class="Account_left_Txt">用户名</p>
+            			<input type="text" placeholder="请输入用户名" class="Registration_information_1 AccountPassword_ipt user_name" />
+            			<div style="clear:both;"></div>
+            		</div>
+            		<div class="AccountBox">
+            			<p class="Account_left_Txt">E-mail</p>
+            			<input type="text" placeholder="请输入E-mail" class="Registration_information_1 AccountPassword_ipt information_1 Phone_number" />
+            			<button class="Verification_Code">获取验证码</button>
+            			<div style="clear:both;"></div>
+            		</div>
+            		<div class="AccountBox">
+            			<p class="Account_left_Txt">手机号码</p>
+            			<input type="text" placeholder="请输入手机号码" class="Registration_information_1 AccountPassword_ipt information_1 Verification_Code_2" />
+            			<div style="clear:both;"></div>
+            		</div>
+            		<div class="AccountBox">
+            			<p class="Account_left_Txt">验证码</p>
+            			<input type="text" placeholder="请输入验证码" class="Registration_information_1 AccountPassword_ipt information_1 Verification_Code_2" />
+            			<div style="clear:both;"></div>
+            		</div>
+            		<div class="AccountBox">
+            			<p class="Account_left_Txt">输入密码</p>
+            			<input type="password" placeholder="6-16个字符"  class="Registration_information_1 AccountPassword_ipt new_AccountPassword_1" />
+            			<div style="clear:both;"></div>
+            		</div>
+            		<div class="AccountBox">
+            			<p class="Account_left_Txt">确认密码</p>
+            			<input type="password" placeholder="6-16个字符" class="Registration_information_1 AccountPassword_ipt new_AccountPassword_2" />
+            			<div style="clear:both;"></div>
+            		</div>
+            		<div class="Registration_Protocol_box"></div>
+            		<!--注册按钮/-->
+            	    <input type="submit" value="注册" disabled="false" class="Account_btn Account_btn_2" />
+            	    <iframe id="rfFrame" name="rfFrame" src="about:blank" style="display:none;"></iframe>
+            	</form>
+            	<p class="Agreement"><span>注册、验证即表明你同意</span><a href="首页-首页.html">一唯网</a><a href="用户协议.html">《用户协议》</a>
+            	</p>
+            </div>
+            <!--注册成功部分-->
+            <div class="AccountPassword_box_3 AccountPassword_box">
+            	<img src="img/cvjop.png" alt="" class="Register_status_img" />
+            	<p class="Register_success_1">注册成功</p>
+            	<p class="Register_success_2">一唯欢迎你</p>
+            	<a href="javascript:void(0);" rel="external" class="return_center_btn">返回个人中心</a>
+            </div>
+            <!--找回密码部分-->
+            <div class="AccountPassword_box_4 AccountPassword_box">
+            	<form action="" method="" data_ajax="false" target="rfFrame">
+            		<div class="AccountBox">
+            			<p class="Account_left_Txt">E-mail</p>
+            			<input type="text" placeholder="请输入E-mail" class="Registration_information_1 AccountPassword_ipt Account_input_2" />
+            			<button class="Verification_Code">获取验证码</button>
+            			<div style="clear:both;"></div>
+            		</div>
+            		<div class="AccountBox">
+            			<p class="Account_left_Txt">验证码</p>
+            			<input type="text" placeholder="请输入验证码" class="Registration_information_1 AccountPassword_ipt Verification_Code_1" />
+            			<div style="clear:both;"></div>
+            		</div>
+            		<div class="Registration_Protocol_box"></div>
+            		<!--下一步按钮/-->
+            	    <input type="submit" value="下一步" disabled="false" class="Account_btn Account_btn_next" />
+            	    <iframe id="rfFrame" name="rfFrame" src="about:blank" style="display:none;"></iframe>
+            	</form>
+            </div>
+            <!--找回密码第二部——确认密码-->
+            <div class="AccountPassword_box_5 AccountPassword_box">
+            	<form action="" method="" data_ajax="false" target="rfFrame">
+            		<div class="AccountBox">
+            			<p class="Account_left_Txt">输入新密码</p>
+            			<input type="password" placeholder="请输入新密码" class="Registration_information_1 AccountPassword_ipt new_Password_1" />
+            			<div style="clear:both;"></div>
+            		</div>
+            		<div class="AccountBox">
+            			<p class="Account_left_Txt">确认新密码</p>
+            			<input type="password" placeholder="请输入新密码" class="Registration_information_1 AccountPassword_ipt new_Password_2" />
+            			<div style="clear:both;"></div>
+            		</div>
+            		<div class="Registration_Protocol_box"></div>
+            		<!--确定按钮/-->
+            	    <input type="submit" value="确定" disabled="false" class="Account_btn Determine_1" />
+            	    <iframe id="rfFrame" name="rfFrame" src="about:blank" style="display:none;"></iframe>
+            	</form>
+            </div>
+            <div class="register_box">
+            	<p class="register">手机快速注册</p>
+            	<p class="RetrievePassword">找回密码</p>
+            </div>
+		</div>
+		<div class="Prompt-box"></div>
+		<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+		<script type="text/javascript" src="js/Login.js"></script>
+            <script>
+                  //返回上一页
+                  $(".public1_return_btn").on("click",function(){
+                        history.go(-1);
+                  })
+            </script>
+	</body>
+</html>

@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+		<title>我的地址</title>
+		<link rel="stylesheet" href="css/user-public1.css" />
+		<link rel="stylesheet" href="css/myadd.css" />
+		<!--移动端配送地址插件样式-->
+		<link rel="stylesheet" href="css/Distribution_1.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div class="public1-head-box">
+			<a href="javascript:void(0);" rel="external" class="public1_return_btn">
+				<img src="img/vftgbtb.png" alt="" class="public1_return_img" />
+				<img src="img/vftgbtb.png" alt="" class="public1_return_img_1" />
+				<img src="img/vftgbtb.png" alt="" class="public1_return_img_2" />
+			</a>
+			<p class="public1_head_txt">订单结算</p>
+			<img src="img/degusd.png" class="Link_img1" name="0" alt="" />
+			<a href="javascript:void(0);" class="public1_head_link"></a>
+			<a href="javascript:void(0);" class="Address_edit" style="display: block;">编辑</a>
+			<a href="javascript:void(0);" class="Finish_editing">完成</a>
+		</div>
+		<!--头部下拉框-->
+		<div class="list_box1">
+			<div class="list_div1">
+				<a href="index.html" class="list_a3">首页</a>
+				<a href="javascript:void(0);" class="list_a3 serch_btn1">搜索</a>
+			</div>
+		</div>
+		<!--头部搜索框-->
+		<div class="serch_box">
+			<div class="serch_div1">
+				<input type="text" class="serch_ipt1" />
+				<img src="img/fergev.png" class="serch_img1" alt="" />
+			</div>
+		</div>
+		<div class="head_h" style="line-height: 44px;text-align: center;font-size: 1.6em;color: #000000;">选择地址</div>
+		<!--我的地址-->
+		<div class="Address_edit_box">
+			<ul class="Address_edit_ul">
+				<li class="Address_edit_li clone">
+					<div class="Address_edit_div">
+						<p class="Address_user_name"></p>
+						<p class="Phone_number"></p>
+					</div>
+					<div class="Address_edit_div">
+						<p class="Address_user_name_1">固话</p>
+						<p class="Phone_number_1"></p>
+					</div>
+					<div class="Address_edit_div">
+						<p class="Address_user_name_2">邮箱</p>
+						<p class="Phone_number_2"></p>
+					</div>
+					<div class="Address_edit_div">
+						<p class="Address_user_name_3">地址别名</p>
+						<p class="Phone_number_3"></p>
+					</div>
+					<p class="user_Address"><span class="province_1"></span><span class="city_1"></span><span class="area_1"></span><span class="Detailed_address_1"></span></p>
+					<div class="operation_box">
+						<img src="img/payment-img-1.png" name="0" class="default_btn" alt="" />
+						<p class="operation_txt">设为默认</p>
+						<p class="operation_txt_1 delect_address">删除</p>
+						<img src="img/delect-img.png" class="operation_img" alt="" />
+						<p class="operation_txt_1 modify">修改</p>
+						<img src="img/modify-img.png" class="operation_img" alt="" />
+					</div>
+				</li>
+				<li class="Address_edit_li">
+					<div class="Address_edit_div">
+						<p class="Address_user_name">张先生</p>
+						<p class="Phone_number">130****8281</p>
+					</div>
+					<div class="Address_edit_div">
+						<p class="Address_user_name_1">固话</p>
+						<p class="Phone_number_1">07712752227</p>
+					</div>
+					<div class="Address_edit_div">
+						<p class="Address_user_name_2">邮箱</p>
+						<p class="Phone_number_2">1914143527@qq.com</p>
+					</div>
+					<div class="Address_edit_div">
+						<p class="Address_user_name_3">地址别名</p>
+						<p class="Phone_number_3">公司</p>
+					</div>
+					<p class="user_Address"><span class="province_1">广东</span><span class="city_1">广州市</span><span class="area_1">天河区</span><span class="Detailed_address_1">体育东路122号羊城国际商贸中心西塔(正佳广场斜对面)</span></p>
+					<div class="operation_box">
+						<img src="img/payment-img.png" name="1" class="default_btn" alt="" />
+						<p class="operation_txt">设为默认</p>
+						<p class="operation_txt_1 delect_address">删除</p>
+						<img src="img/delect-img.png" class="operation_img" alt="" />
+						<p class="operation_txt_1 modify">修改</p>
+						<img src="img/modify-img.png" class="operation_img" alt="" />
+					</div>
+				</li>
+			</ul>
+			<div class="footer_1"></div>
+			<button class="New_address_btn">┼&nbsp;&nbsp;新建地址</button>
+		</div>
+		<!--修改地址-->
+		<div class="Modify_address_box">
+			<ul class="Modify_address_ul">
+				<li class="Modify_address_li">
+					<p class="Modify_address_left">收货人：</p>
+					<p class="Modify_address_right user_modify_name"></p>
+				</li>
+				<li class="Modify_address_li">
+					<p class="Modify_address_left">联系电话：</p>
+					<p class="Modify_address_right user_modify_name_number"></p>
+				</li>
+				<li class="Modify_address_li">
+					<p class="Modify_address_left_1">固话：</p>
+					<p class="Modify_address_right user_modify_name_number_1"></p>
+				</li>
+				<li class="Modify_address_li">
+					<p class="Modify_address_left_2">电子邮箱：</p>
+					<p class="Modify_address_right user_modify_name_number_2"></p>
+				</li>
+				<li class="Modify_address_li">
+					<p class="Modify_address_left_3">地址别名：</p>
+					<p class="Modify_address_right user_modify_name_number_3"></p>
+				</li>
+				<li class="Modify_address_li">
+					<div class="Address_plug">
+                        <p class="Address_plug_left">配送地址</p>
+                        <p class="Address_plug_right">
+            	            <span class="province_txt">选择配送地址</span>
+            	            <span class="city_txt"></span>
+            	            <span class="area_txt"></span>
+                        </p>
+                    </div> 
+				</li>
+				<li class="Modify_address_li">
+					<p class="Modify_address_left">详细地址：</p>
+					<p class="Modify_address_right user_modify_address"></p>
+				</li>
+			</ul>
+			<div class="Default_address_setting">
+				<div class="Default_address_setting_left">
+					<p class="Default_address_setting_p">设为默认地址</p>
+					<p class="Default_address_setting_p">注：每次下单时会默认使用该地址</p>
+				</div>
+				<img src="img/d1.png" name="0" class="set_default_btn" alt="" />
+			</div>
+			<p class="save_btn">保存</p>
+			<p class="save_new_address">保存</p>
+		</div>
+		<!--删除地址提示框-->
+		<div class="Delete_prompt_box">
+			<div class="Delete_prompt_center">
+				<p class="Delete_prompt_txt">你确定要删除该地址？</p>
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion">确定</p>
+				    <p class="Cancel_delete">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--详细地址修改弹窗-->
+		<div class="Pop_box">
+			<div class="Delete_prompt_center">
+				<input type="text" class="new_address_ipt" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_1">确定</p>
+				    <p class="Cancel_delete_1">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--修改用户名-->
+		<div class="Pop_box_2">
+			<div class="Delete_prompt_center">
+				<input type="text" class="new_address_ipt_2" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_2">确定</p>
+				    <p class="Cancel_delete_2">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--修改联系电话-->
+		<div class="Pop_box_3">
+			<div class="Delete_prompt_center">
+				<input type="text" class="new_address_ipt_3" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_3">确定</p>
+				    <p class="Cancel_delete_3">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--修改联系固话-->
+		<div class="Pop_box_4">
+			<div class="Delete_prompt_center">
+				<input type="text" class="new_address_ipt_4" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_4">确定</p>
+				    <p class="Cancel_delete_4">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--修改电子邮箱-->
+		<div class="Pop_box_5">
+			<div class="Delete_prompt_center">
+				<input type="text" class="new_address_ipt_5" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_5">确定</p>
+				    <p class="Cancel_delete_5">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--修改地址别名-->
+		<div class="Pop_box_6">
+			<div class="Delete_prompt_center">
+				<input type="text" class="new_address_ipt_6" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_6">确定</p>
+				    <p class="Cancel_delete_6">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--修改订单备注-->
+		<div class="Pop_box_7">
+			<div class="Delete_prompt_center">
+				<input type="text" maxlength="45" class="new_address_ipt_7" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_7">确定</p>
+				    <p class="Cancel_delete_7">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--配送地址选择遮罩-->
+		<!--省-->
+		<div class="Address_plug_province_box_1">
+			<ul class="Address_plug_province_ul_1"></ul>
+		</div>
+		<!--市-->
+		<div class="Address_plug_province_box_2">
+			<ul class="Address_plug_province_ul_2"></ul>
+		</div>
+		<!--县、区-->
+		<div class="Address_plug_province_box_3">
+			<ul class="Address_plug_province_ul_3"></ul>
+		</div>
+		<div class="footer"></div>
+		<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+		<script type="text/javascript" src="js/myadd.js"></script>
+		<!--地区插件-->
+        <script src="js/chinaArea.js" type="text/javascript" charset="utf-8"></script>
+        <!--移动端配送地址-->
+        <script type="text/javascript" src="js/Distribution_1.js"></script>
+        <script>
+        	$(".public1_return_btn").on("click",function(){
+        		history.go(-1);
+        	})
+        </script>
+	</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+		<title>待评价</title>
+		<link rel="stylesheet" href="css/user-public1.css" />
+		<link rel="stylesheet" href="css/order-public.css" />
+		<!--头部公共部分-->
+		<link rel="stylesheet" href="css/my-order-head.css" />
+		<link rel="stylesheet" href="css/Comment_page.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div class="Collection_head_box">
+			<a href="javascript:void(0);" class="return_btn">
+				<img src="img/vftgbtb.png" alt="" />
+			</a>
+			<div class="Head_navigation">
+				<p class="Head_navigation_right">我的评价</p>
+			</div>
+			<img src="img/degusd.png" class="Link_img1" name="0" alt="" />
+		</div>
+		<!--头部下拉框-->
+		<div class="list_box1">
+			<div class="list_div1">
+				<a href="index.html" class="list_a3">首页</a>
+				<a href="javascript:void(0);" class="list_a3 serch_btn1">搜索</a>
+			</div>
+		</div>
+		<!--头部搜索框-->
+		<div class="serch_box">
+			<div class="serch_div1">
+				<input type="text" class="serch_ipt1" />
+				<img src="img/fergev.png" class="serch_img1" alt="" />
+			</div>
+		</div>
+		<div class="head"></div>
+		<!--评论部分-->
+		<div class="comment_box">
+			<div class="comment_head">
+				<img src="img/103.png" class="comment_img" alt="" />
+				<a href="商品详情.html" class="comment_shop_name">2016夏季新款女装韩版蕾丝拼接雪纺衫袖娃娃领雪纺连衣裙</a>
+			</div>
+			<textarea name="" rows="" cols="" placeholder="写下购买体会和使用感受来帮助其他小伙伴吧~" class="comment_txt"></textarea>
+			<p class="Word_limit">500</p>
+		</div>
+		<!--发表评价按钮-->
+		<div class="Evaluation_button">
+			<buttom class="Evaluation_btn">发表评价</buttom>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+		<script type="text/javascript" src="js/my-order-head.js"></script>
+		<script>
+			$(".return_btn").on("click",function(){
+				history.go(-1);
+			})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> 
+		<title>订单结算</title>
+		<link rel="stylesheet" href="css/user-public1.css" />
+		<link rel="stylesheet" href="css/Settlement.css" />
+		<!--移动端配送地址插件样式-->
+		<link rel="stylesheet" href="css/Distribution_1.css" />
+	</head>
+	<body>
+		<!--头部-->
+		<div class="public1-head-box">
+			<a href="javascript:void(0);" rel="external" class="public1_return_btn">
+				<img src="img/vftgbtb.png" alt="" class="public1_return_img" />
+				<img src="img/vftgbtb.png" alt="" class="public1_return_img_1" />
+				<img src="img/vftgbtb.png" alt="" class="public1_return_img_2" />
+			</a>
+			<p class="public1_head_txt">订单结算</p>
+			<a href="javascript:void(0);" class="public1_head_link"></a>
+			<a href="javascript:void(0);" class="Address_edit">编辑</a>
+			<a href="javascript:void(0);" class="Finish_editing">完成</a>
+		</div>
+		<div class="head_h" style="line-height: 44px;text-align: center;font-size: 1.6em;color: #000000;">选择地址</div>
+		<div class="center_box">
+			<!--配送地址-->
+		<div class="Delivery_address_box">
+			<div class="Delivery_address_left">
+				<p class="User_information">
+					<span class="User_information_txt_1">张先生</span>
+					<span class="User_information_txt_2" style="padding-left: 10.43478%;">130****8281</span>
+					<spanstyle class="User_information_txt_3" style ="padding-left: 5.43478%;display: none;">公司</span>
+				</p>
+				<p class="User_information_1" style="display: none;">
+				    <span>电子邮箱</span>
+				    <span class="User_information_txt_4" style="padding-left: 9.43478%;">1914143527@qq.com</span>
+				</p>
+				<p class="User_information_2" style="display: none;">
+				    <span>固话</span>
+				    <span class="User_information_txt_5" style="padding-left: 17.43478%;">07712752227</span>
+				</p>
+				<div class="address_box">
+					<p class="address_default">默认</p>
+					<p class="address">广东省广州市天河区天河南街道羊城国际...</p>
+				</div>
+			</div>
+			<img src="img/tihggj.png" class="address_img" alt="" />
+		</div>
+		<img src="img/Shading.png" style="width: 100%;margin: 0 auto;" alt="" />
+		<!--结算详情-->
+		<div class="Settlement_details_box">
+			<p class="Shop_name">巨千服饰旗舰店</p>
+			<div class="Settlement_details_div_1">
+				<img src="img/103.png" class="shop_img" alt="" />
+				<div class="Settlement_details_rght">
+					<p class="commodity_name">JuQian巨千2016秋冬新款OL时尚职业西装正装女裙套装JQ503</p>
+					<p class="Specification">
+						<span>颜色:</span>
+						<span>黑色</span>
+						<span style="padding-left: 6%;">尺寸:</span>
+						<span>L</span>
+					</p>
+					<!--购买数量-->
+					<div class="goods_quantity_box">
+						<p class="reduce_btn">-</p>
+						<input type="text" value="1" class="quantity_ipt" />
+						<p class="increase_btn">+</p>
+						<div style="clear: both;"></div>
+					</div>
+					<div class="Settlement_details_div">
+						<div class="Return_goods">
+							<img src="img/7.png" class="Return_goods_img" alt="" />
+							<span>7天无理由退货</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="price_box">
+				<p class="price_p"><span>￥</span><span class="price_txt">488</span><span>.00</span></p>
+				<p class="price_Number">╳1</p>
+			</div>
+			<div style="clear: both;"></div>
+		</div>
+		<!--配送方式-->
+		<div class="Distribution_box">
+			<div class="Distribution Distribution_btn">
+				<p class="Distribution_left">配送方式</p>
+				<img src="img/tihggj.png" class="Distribution_img" alt="" />
+				<p class="Distribution_right">快递</p>
+			</div>
+		</div>
+		<!--服务费-->
+		<div class="Distribution_box">
+			<div class="Distribution">
+				<p class="Distribution_left">服务费：</p>
+				<p class="Service_charge"><span>￥</span><span class="Service_charge_1">0</span><span>.00</span></p>
+			</div>
+		</div>
+		<!--订单备注-->
+		<div class="Distribution_box">
+			<div class="Distribution">
+				<p class="Distribution_left">订单备注：</p>
+				<p class="Explain">限45个字&nbsp;（请勿填写有关支付、收货、发票方面的信息）</p>
+			</div> 
+		</div>
+		<!--总价-->
+		<div class="Distribution_box">
+			<div class="Distribution Total_box">共<span class="goods_Total">1</span>件商品，合计:<span class="Total_red">￥</span><span class="Total_red Total_price">488</span><span class="Total_red">.00</span></div>
+		</div>
+		<!--优惠卷抵用-->
+		<div class="Distribution_box" style="border-bottom: 1px solid #e5e5e5;">
+			<div class="Distribution Coupon_btn_1">
+				<p class="Distribution_left">使用优惠卷/抵用</p>
+				<img src="img/tihggj.png" class="Distribution_img" alt="" />
+				<p class="Distribution_right">暂无优惠卷可用</p>
+			</div>
+		</div>
+		<!--确认订单-->
+		<div class="confirm_box">
+			<p class="confirm_left"><span>实付款：</span><span class="confirm_red" style="font-size: 0.1em;">￥</span><span class="confirm_red Total_price">488</span><span class="confirm_red" style="font-size: 0.1em;">.00</span></p>
+			<a href="javascript:void(0);" class="confirm_btn">确认订单</a>
+		</div>
+		</div>
+		<!--价格说明遮罩-->
+		<div class="Price_description_out_box">
+			<div class="Price_description_box">
+				<p class="Price_description_tittle">价格说明</p>
+				<p class="Price_description_txt">因可能存在系统缓存、页面更新导致价格变动异常等不确定性情况出现，商品售价以本结算页商品价格为准；<br>如有疑问，请您立即联系销售商咨询。</p>
+				<button>知道了</button>
+			</div>
+		</div>
+		<!--订单结算-->
+		<div class="Order_settlement_box">
+			<ul class="Order_settlement_ul">
+				<li class="Order_settlement_li">
+					<img src="img/express-2.png" class="Order_settlement_img" alt="" />
+					<p class="express_name">圆通速递</p>
+					<p class="freight">免运费</p>
+				</li>
+				<li class="Order_settlement_li">
+					<img src="img/express-1.png" class="Order_settlement_img" alt="" />
+					<p class="express_name">韵达快递</p>
+					<p class="freight">免运费</p>
+				</li>
+			</ul>
+			<!--确认按钮-->
+			<button class="express_btn">确认</button>
+		</div>
+		<!--优惠劵,无优惠券状态,已隐藏-->
+		<div class="Coupon_box_1" style="display: none;">
+			<div class="Coupon_box_head">
+				<div class="Coupon_box_head_out">
+					<p class="Available_Coupon Coupon_btn_2 Coupon_click">可用优惠券<span>(0)</span></p>
+				</div>
+				<div class="Coupon_box_head_out">
+					<p class="Unavailable_Coupon Coupon_btn_2">不可用优惠券<span>(0)</span></p>
+				</div>
+			</div>
+			<img src="img/coupon-img-1.png" class="coupon-img" alt="" />
+			<p class="Coupon_box_1_txt">此订单暂无可用优惠券</p>
+		</div>
+		<!--优惠券，有优惠券状态-->
+		<div class="Coupon_box_2">
+			<div class="Coupon_box_head">
+				<div class="Coupon_box_head_out">
+					<p class="Available_Coupon Coupon_btn_2 Coupon_click">可用优惠券<span>(0)</span></p>
+				</div>
+				<div class="Coupon_box_head_out">
+					<p class="Unavailable_Coupon Coupon_btn_2">不可用优惠券<span>(0)</span></p>
+				</div>
+			</div>
+			<!--可用优惠券-->
+			<ul class="Coupon-Popup-ul" style="display: block;">
+				<li class="Coupon-Popup-li">
+					<a href="javascript:void(0);" class="Coupon-Popup-li-link">
+						<div class="Coupon-Popup-txt">
+							<div class="Coupon-Popup-value-box">
+							    <p class="currency">RBM</p>
+							    <p class="value">5</p>
+						    </div>
+						    <div class="Coupon-Popup-describe-box">
+							    <div class="Coupon-Popup-describe">巨千服饰店铺优惠券单笔消费满99元可用</div>
+							        <img src="img/fhug.png" class="Coupon-Popup-img" alt="" />
+							    <div style="clear: both;"></div>
+						    </div>
+						    <div style="clear:both;"></div>
+						</div>
+						<div class="Coupon-Popup-data-box">
+							<p>
+								<span>有效期至</span>
+								<span>2017-5-20</span>
+							</p>
+						</div>
+					</a>
+					<img src="img/Choice-1.png" class="Coupon_Choice" alt="" />
+				</li>
+				<li class="Coupon-Popup-li">
+					<a href="javascript:void(0);" class="Coupon-Popup-li-link">
+						<div class="Coupon-Popup-txt">
+							<div class="Coupon-Popup-value-box">
+							    <p class="currency">RBM</p>
+							    <p class="value">5</p>
+						    </div>
+						    <div class="Coupon-Popup-describe-box">
+							    <div class="Coupon-Popup-describe">巨千服饰店铺优惠券单笔消费满99元可用</div>
+							        <img src="img/fhug.png" class="Coupon-Popup-img" alt="" />
+							    <div style="clear: both;"></div>
+						    </div>
+						    <div style="clear:both;"></div>
+						</div>
+						<div class="Coupon-Popup-data-box">
+							<p>
+								<span>有效期至</span>
+								<span>2017-5-20</span>
+							</p>
+						</div>
+					</a>
+					<img src="img/Choice-1.png" class="Coupon_Choice" alt="" />
+				</li>
+			</ul>
+			<!--不可用优惠券-->
+			<ul class="Coupon-Popup-ul">
+				<li class="Coupon-Popup-li">
+					<a href="javascript:void(0);" class="Coupon-Popup-li-link">
+						<div class="Coupon-Popup-txt">
+							<div class="Coupon-Popup-value-box">
+							    <p class="currency">RBM</p>
+							    <p class="value">5</p>
+						    </div>
+						    <div class="Coupon-Popup-describe-box">
+							    <div class="Coupon-Popup-describe">巨千服饰店铺优惠券单笔消费满99元可用</div>
+							        <img src="img/fhug.png" class="Coupon-Popup-img" alt="" />
+							    <div style="clear: both;"></div>
+						    </div>
+						    <div style="clear:both;"></div>
+						</div>
+						<div class="Coupon-Popup-data-box">
+							<p>
+								<span>有效期至</span>
+								<span>2017-5-20</span>
+							</p>
+						</div>
+					</a>
+				</li>
+				<li class="Coupon-Popup-li">
+					<a href="javascript:void(0);" class="Coupon-Popup-li-link">
+						<div class="Coupon-Popup-txt">
+							<div class="Coupon-Popup-value-box">
+							    <p class="currency">RBM</p>
+							    <p class="value">5</p>
+						    </div>
+						    <div class="Coupon-Popup-describe-box">
+							    <div class="Coupon-Popup-describe">巨千服饰店铺优惠券单笔消费满99元可用</div>
+							        <img src="img/fhug.png" class="Coupon-Popup-img" alt="" />
+							    <div style="clear: both;"></div>
+						    </div>
+						    <div style="clear:both;"></div>
+						</div>
+						<div class="Coupon-Popup-data-box">
+							<p>
+								<span>有效期至</span>
+								<span>2017-5-20</span>
+							</p>
+						</div>
+					</a>
+				</li>
+			</ul>
+		</div>
+		<!--支付方式-->
+		<div class="Payment_method_box">
+			<ul class="Payment_method_ul">
+				<li class="Payment_method_li">
+					<img src="img/payment-img.png" class="payment_img" alt="" />
+					<p class="Payer_name">支付宝支付</p>
+				</li>
+				<li class="Payment_method_li">
+					<img src="img/payment-img-1.png" class="payment_img" alt="" />
+					<p class="Payer_name">微信支付</p>
+				</li>
+				<li class="Payment_method_li">
+					<img src="img/payment-img-1.png" class="payment_img" alt="" />
+					<p class="Payer_name">银行卡支付</p>
+				</li>
+				<li class="Payment_method_li">
+					<img src="img/payment-img-1.png" class="payment_img" alt="" />
+					<p class="Payer_name">货到付款</p>
+				</li>
+			</ul>
+			<button class="payment_express_btn">确认</button>
+		</div>
+		<!--我的地址-->
+		<div class="Address_edit_box">
+			<ul class="Address_edit_ul">
+				<li class="Address_edit_li clone">
+					<div class="Address_edit_div">
+						<p class="Address_user_name"></p>
+						<p class="Phone_number"></p>
+					</div>
+					<div class="Address_edit_div">
+						<p class="Address_user_name_1">固话</p>
+						<p class="Phone_number_1"></p>
+					</div>
+					<div class="Address_edit_div">
+						<p class="Address_user_name_2">邮箱</p>
+						<p class="Phone_number_2"></p>
+					</div>
+					<div class="Address_edit_div">
+						<p class="Address_user_name_3">地址别名</p>
+						<p class="Phone_number_3"></p>
+					</div>
+					<p class="user_Address"><span class="province_1"></span><span class="city_1"></span><span class="area_1"></span><span class="Detailed_address_1"></span></p>
+					<div class="operation_box">
+						<img src="img/payment-img-1.png" name="0" class="default_btn" alt="" />
+						<p class="operation_txt">设为默认</p>
+						<p class="operation_txt_1 delect_address">删除</p>
+						<img src="img/delect-img.png" class="operation_img" alt="" />
+						<p class="operation_txt_1 modify">修改</p>
+						<img src="img/modify-img.png" class="operation_img" alt="" />
+					</div>
+				</li>
+				<li class="Address_edit_li">
+					<div class="Address_edit_div">
+						<p class="Address_user_name">张先生</p>
+						<p class="Phone_number">130****8281</p>
+					</div>
+					<div class="Address_edit_div">
+						<p class="Address_user_name_1">固话</p>
+						<p class="Phone_number_1">07712752227</p>
+					</div>
+					<div class="Address_edit_div">
+						<p class="Address_user_name_2">邮箱</p>
+						<p class="Phone_number_2">1914143527@qq.com</p>
+					</div>
+					<div class="Address_edit_div">
+						<p class="Address_user_name_3">地址别名</p>
+						<p class="Phone_number_3">公司</p>
+					</div>
+					<p class="user_Address"><span class="province_1">广东</span><span class="city_1">广州市</span><span class="area_1">天河区</span><span class="Detailed_address_1">体育东路122号羊城国际商贸中心西塔(正佳广场斜对面)</span></p>
+					<div class="operation_box">
+						<img src="img/payment-img.png" name="1" class="default_btn" alt="" />
+						<p class="operation_txt">设为默认</p>
+						<p class="operation_txt_1 delect_address">删除</p>
+						<img src="img/delect-img.png" class="operation_img" alt="" />
+						<p class="operation_txt_1 modify">修改</p>
+						<img src="img/modify-img.png" class="operation_img" alt="" />
+					</div>
+				</li>
+			</ul>
+			<div class="footer_1"></div>
+			<button class="New_address_btn">┼&nbsp;&nbsp;新建地址</button>
+		</div>
+		<!--修改地址-->
+		<div class="Modify_address_box">
+			<ul class="Modify_address_ul">
+				<li class="Modify_address_li">
+					<p class="Modify_address_left">收货人：</p>
+					<p class="Modify_address_right user_modify_name"></p>
+				</li>
+				<li class="Modify_address_li">
+					<p class="Modify_address_left">联系电话：</p>
+					<p class="Modify_address_right user_modify_name_number"></p>
+				</li>
+				<li class="Modify_address_li">
+					<p class="Modify_address_left_1">固话：</p>
+					<p class="Modify_address_right user_modify_name_number_1"></p>
+				</li>
+				<li class="Modify_address_li">
+					<p class="Modify_address_left_2">电子邮箱：</p>
+					<p class="Modify_address_right user_modify_name_number_2"></p>
+				</li>
+				<li class="Modify_address_li">
+					<p class="Modify_address_left_3">地址别名：</p>
+					<p class="Modify_address_right user_modify_name_number_3"></p>
+				</li>
+				<li class="Modify_address_li">
+					<div class="Address_plug">
+                        <p class="Address_plug_left">配送地址</p>
+                        <p class="Address_plug_right">
+            	            <span class="province_txt">选择配送地址</span>
+            	            <span class="city_txt"></span>
+            	            <span class="area_txt"></span>
+                        </p>
+                    </div> 
+				</li>
+				<li class="Modify_address_li">
+					<p class="Modify_address_left">详细地址：</p>
+					<p class="Modify_address_right user_modify_address"></p>
+				</li>
+			</ul>
+			<div class="Default_address_setting">
+				<div class="Default_address_setting_left">
+					<p class="Default_address_setting_p">设为默认地址</p>
+					<p class="Default_address_setting_p">注：每次下单时会默认使用该地址</p>
+				</div>
+				<img src="img/d1.png" name="0" class="set_default_btn" alt="" />
+			</div>
+			<p class="save_btn">保存</p>
+			<p class="save_new_address">保存</p>
+		</div>
+		<!--删除地址提示框-->
+		<div class="Delete_prompt_box">
+			<div class="Delete_prompt_center">
+				<p class="Delete_prompt_txt">你确定要删除该地址？</p>
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion">确定</p>
+				    <p class="Cancel_delete">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--详细地址修改弹窗-->
+		<div class="Pop_box">
+			<div class="Delete_prompt_center">
+				<input type="text" class="new_address_ipt" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_1">确定</p>
+				    <p class="Cancel_delete_1">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--修改用户名-->
+		<div class="Pop_box_2">
+			<div class="Delete_prompt_center">
+				<input type="text" class="new_address_ipt_2" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_2">确定</p>
+				    <p class="Cancel_delete_2">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--修改联系电话-->
+		<div class="Pop_box_3">
+			<div class="Delete_prompt_center">
+				<input type="text" class="new_address_ipt_3" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_3">确定</p>
+				    <p class="Cancel_delete_3">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--修改联系固话-->
+		<div class="Pop_box_4">
+			<div class="Delete_prompt_center">
+				<input type="text" class="new_address_ipt_4" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_4">确定</p>
+				    <p class="Cancel_delete_4">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--修改电子邮箱-->
+		<div class="Pop_box_5">
+			<div class="Delete_prompt_center">
+				<input type="text" class="new_address_ipt_5" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_5">确定</p>
+				    <p class="Cancel_delete_5">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--修改地址别名-->
+		<div class="Pop_box_6">
+			<div class="Delete_prompt_center">
+				<input type="text" class="new_address_ipt_6" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_6">确定</p>
+				    <p class="Cancel_delete_6">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--修改订单备注-->
+		<div class="Pop_box_7">
+			<div class="Delete_prompt_center">
+				<input type="text" maxlength="45" class="new_address_ipt_7" />
+				<div class="Delete_prompt_btn_box">
+				    <p class="confirm_deletion_7">确定</p>
+				    <p class="Cancel_delete_7">取消</p>
+			    </div>
+			</div>
+		</div>
+		<!--配送地址选择遮罩-->
+		<!--省-->
+		<div class="Address_plug_province_box_1">
+			<ul class="Address_plug_province_ul_1"></ul>
+		</div>
+		<!--市-->
+		<div class="Address_plug_province_box_2">
+			<ul class="Address_plug_province_ul_2"></ul>
+		</div>
+		<!--县、区-->
+		<div class="Address_plug_province_box_3">
+			<ul class="Address_plug_province_ul_3"></ul>
+		</div>
+		<div class="footer"></div>
+		<script type="text/javascript" src="js/jquery-1.12.2.min.js"></script>
+		<script type="text/javascript" src="js/Settlement.js"></script>
+		<!--地区插件-->
+        <script src="js/chinaArea.js" type="text/javascript" charset="utf-8"></script>
+        <!--移动端配送地址-->
+        <script type="text/javascript" src="js/Distribution_1.js"></script>
+        <script>
+        	$(".public1_return_btn").on("click",function(){
+        		history.go(-1);
+        	})
+        </script>
+	</body>
+</html>
